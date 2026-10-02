@@ -1,0 +1,303 @@
+{
+    "menu": [
+        {
+            "tag":false,
+            "tagName":"前言",
+            "tagUrl":"#intro",
+            "tagClassName":"menu_intro"
+        },
+        {
+            "tag":false,
+            "tagName":"會議重點",
+            "tagUrl":"#article1",
+            "tagClassName":"menu_article1"
+        },
+        {
+            "tag":false,
+            "tagName":"專家觀點",
+            "tagUrl":"#article2",
+            "tagClassName":"menu_article2"
+        },
+        {
+            "tag":false,
+            "tagName":"會議背景",
+            "tagUrl":"#article3",
+            "tagClassName":"menu_article3"
+        },
+        {
+            "tag":false,
+            "tagName":"會議效應",
+            "tagUrl":"#article4",
+            "tagClassName":"menu_article4"
+        },
+        {
+            "tag":false,
+            "tagName":"掌握歷屆COP脈動",
+            "tagUrl":"#history",
+            "tagClassName":"menu_history"
+        }
+    ],
+    "content":[
+        {
+            "id":"kv",
+            "title":"現場直擊<br class='big_title_br'>專題報導",
+            "titleColor":"#008d6a",
+            "subtitle":"《巴黎協定》10年的全球氣候大考，聚焦NDC3.0、氣候融資與氣候調適",
+            "subtitleColor":"#2f4f4f",
+            "label":"直擊巴西貝倫現場",
+            "labelColor":"#00738c",
+            "img1":"live1.jpg",
+            "img2":"live2.jpg",
+            "img3":"live2.jpg"
+        },
+        {
+            "id":"intro",
+            "title":"現場<br>直擊及報導",
+            "title2":"氣候變遷⼤挑戰 聯合國氣候變遷⼤會(COP 30)",
+            "titleColor":"#fff",
+            "titleType":1,
+            "img1":"",
+            "img2":"",
+            "img3":"",
+            "text":[
+                "今年聯合國氣候變遷大會COP30在巴西舉行，地點選在亞馬遜雨林邊境的港口城市貝倫。這座城市是通往世界最大熱帶雨林的重要門戶，也象徵全球氣候挑戰的前線。",
+                "今年是《巴黎協定》簽署十周年，但年初美國川普政府再次宣布退出，全球氣候變遷挑戰加劇，地緣政治局勢亦日益複雜，使本屆會議成為檢驗各國氣候承諾與決心的關鍵時刻。"
+            ]
+        },
+        {
+            "id":"picture",
+            "title":"現場實況<br class='big_title_br'>圖輯",
+            "titleColor":"#fff",
+            "titleType":2
+        },
+        {
+            "id":"intro2",
+            "intro2":[
+                {
+                    "label":"COP是什麼?",
+                    "content": [
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"COP是締約方大會(Conference of the Parties)的簡稱。每一個國際公約都有自己的「COP」，其中最有名的就是「聯合國氣候變遷綱要公約(UNFCCC)締約方大會」。"
+                        },
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"聯合國氣候變遷綱要公約締約方大會約於每年11月到12月間舉辦，在2022年梵蒂岡批准條約後，共有198個締約方。2025年即將在巴西的貝倫舉行第30次會議(COP30)。"
+                        },
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"此外，由於各締約方領導者都會出席會議，也可以稱其為「氣候高峰會」。"
+                        }
+                    ]
+                },
+                {
+                    "label":"COP近年討論重點",
+                    "content": [
+                        {
+                            "title":"2024年COP29",
+                            "titleColor":"",
+                            "description":"設立新的氣候融資「集體量化目標(NCQG)」，全球公私部門2035年前每年提供1.3兆美元的氣候融資，幫助開發中國家應對氣候變遷。通過《巴黎協定》第6條，強化國際碳市場機制。"
+                        },
+                        {
+                            "title":"2023年COP28",
+                            "titleColor":"",
+                            "description":"首次做出以化石燃料為主體的共識，能源系統以公正、有序與公平的方式轉型離開(transitioning away)化石燃料，以達成2050淨零目標。"
+                        },
+                        {
+                            "title":"2022年COP27",
+                            "titleColor":"",
+                            "description":"同意設置「損失與損害基金」。設置基金的目的，是提供資金給受嚴重氣候變遷衝擊的發展中國家，協助這些國家強化調適氣候變遷的能力，同時有餘裕推動減緩溫室氣體排放的政策。"
+                        }
+                    ]
+                },
+                {
+                    "label":"COP 30討論重點",
+                    "content": [
+                        {
+                            "title":"全球氣候行動評估",
+                            "titleColor":"",
+                            "description":"各國需在 COP30 前提交 2035 年的國家自主貢獻(NDC3.0)。會議將特別檢視主要經濟體和排放大國的進展，並評估全球能否保持在 1.5℃ 減碳路徑上。"
+                        },
+                        {
+                            "title":"擴大氣候融資",
+                            "titleColor":"",
+                            "description":"氣候資金仍是焦點議題之一，「從巴庫到貝倫，1.3兆美元路線圖」報告預計將於COP30前發布，說明氣候融資如何從3000億美元增加到1.3兆美元。"
+                        },
+                        {
+                            "title":"氣候變遷調適",
+                            "titleColor":"",
+                            "description":"隨著氣溫上升，調適行動更顯重要。COP30 將檢視各國在「全球調適目標」(GGA)的進展、設定新適應性融資目標，並鼓勵提交國家調適計畫。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"article1",
+            "type":1,
+            "title":"直擊！<br class='big_title_br'>COP 30<br class='big_title_br'>會議重點",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/KaiShengTan_382/7%E6%9C%8810/12%E6%9C%882%E6%97%A5/Ding-Xuexiang-speaks-at-China-pavilion-at-COP29_Kamran-Guliyev_UN-Climate-Change_1c70f93269_v2-1400x934.jpg",
+                    "title":"COP29》川普揚言又退巴黎協定，中國趁勢主導全球氣候議題，為什麼這麼做？",
+                    "description":"每年的 COP 會議都在不同城市舉行，今年的 COP29 則在位於高加索地區、作為主要生產石油和天然氣的亞塞拜然首都巴庫（Baku)下落幕。談及本次 COP 的核心關鍵重點只有一個：資金，也就是氣候融資目標，對於已開發國家而言可謂是「毫無投資報酬率」的支出，過往在推動上持續分歧，而 COP29 落幕，本文整理影響關鍵領袖決議天秤之三大關鍵。Nielsen，簽約推動台大獨創的「臺灣生物信用額度方案- BioPlus」，希望能在全球氣候融資市場，提出台灣開發、具有商業價值的金融商品。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202412030006"
+                }
+            ]
+        },
+        {
+            "id":"article2",
+            "type":2,
+            "title":"COP 30<br class='big_title_br'>專家觀點",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180041/image-1600-e4ca64b804c052926824c2877ccfa649 (1)_20251027153237.jpeg_1140x855.jpg",
+                    "title":"COP30四大重點一次看！NDC3.0這個重大改變，可能關乎台灣未來碳價格",
+                    "description":"COP30觀點》本屆COP 30（Conference of the Parties 30）聯合國氣候峰會，將從11月10日起，在巴西城市的貝倫（Belem）舉行，有別於之前的氣候峰會，今年的COP30，有其特殊的歷史意義。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510270024"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/176376/1024x688_wmkn_87521561846_0_20250725182843.jpg_1140x855.jpg",
+                    "title":"COP30關注生物多樣性！生物信用額度究竟是商機還是陷阱？價差高達12萬倍【風險分析】",
+                    "description":"COP30觀點》位於巴西亞馬遜雨林邊境的貝倫（Belém）將於11月主辦聯合國氣候大會（COP30），也使得「生物多樣性」成為國際關注焦點。世界經濟論壇（WEF）在2022年發起「生物多樣性信用額度倡議」（Biodiversity Credits Initiative），試圖透過市場機制創造投資誘因，但這項新興市場發展至今進展如何？又藏有哪些投資風險？",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202507250038"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180151/worker-pixabay_20251029122215.jpg_1140x855.jpg",
+                    "title":"論壇／COP30全球公正轉型政策有望進化，台灣國家行動計畫可否落實公正轉型2.0？",
+                    "description":"COP30觀點》第30次聯合國氣候變化綱要公約會議（COP30）將在巴西亞馬遜雨林的港口城市貝倫（Belém）登場。本屆大會適逢《巴黎協定》簽署十週年以及各國提交第三版的「國家自定貢獻」（Nationally Determined Contributions，NDC 3.0）、強化2035年減量目標，各方可謂高度關注各項議程的進展與具體承諾；許多國家代表與公民團體亦趁大會前積極提出各項倡議，企圖為接續的談判議程定錨。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510290037"
+                }
+            ]
+        },
+        {
+            "id":"article3",
+            "type":3,
+            "title":"會議背景",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/179760/mika-baumeister-jXPQY1em3Ew-unsplash_20251020163612.jpg_1140x855.jpg",
+                    "title":"COP30倒數，全球NDC3.0盤點！巴黎協定十年後，各國2035減碳承諾揭示哪些關鍵挑戰？【分析】",
+                    "description":"COP30背景》2025年是「巴黎協定」簽署十週年。巴黎協定不僅設計每五年更新一輪的國家自定貢獻（Nationally Determined Contributions, NDCs），並透過全球盤點（Global Stcoktake）強化透明度與集體責任，使氣候承諾不再是一次性的宣示，而是能不斷調整、逐步提高減碳目標的進程。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510200039"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/176440/20250717 A1_20250728141939.jpg_1140x855.jpg",
+                    "title":"為COP30氣候大會蓋「永續公路」，卻要犧牲亞馬遜雨林？巴西貝倫引起生態爭議",
+                    "description":"COP30背景》位於巴西亞馬遜雨林邊境的港口城市貝倫，是今年聯合國氣候大會（COP30）的舉辦地。近來卻傳出當地為了承辦這場國際盛會，正在砍伐森林、興建橫跨雨林的高速公路，飽受當地居民、專家及環保人士批評。一場目標守護氣候的國際會議，卻可能以犧牲全球最重要的碳匯與生態系統為代價，引發高度爭議。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202507280020"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/179126/beautiful-shot-green-field-side-dirt-road-with-building-cloudy-sky-800x531_20251003112536.jpg_1140x855.jpg",
+                    "title":"COP30 碳移除首設獨立展館！ICVCM 通過 6 項新方法學，全球碳市場迎來新階段",
+                    "description":"COP30背景》碳移除技術（Carbon dioxide removal，CDR）逐漸受到各國重視，11月登場的聯合國氣候峰會（COP30）將首度設立專屬展館，預計將匯集全球政府及產業代表，邀集全球政府與產業代表，共同探討如何強化該技術在氣候與經濟上的效益。同時，國際倡議組織「自願性碳市場誠信委員會」（ICVCM）也通過新一批碳移除方法學，為市場參與者提供高品質碳權標準。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510030013"
+                }
+            ]
+        },
+        {
+            "id":"article4",
+            "type":2,
+            "title":"會議效應",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/KaiShengTan_382/7%E6%9C%8810/12%E6%9C%882%E6%97%A5/Ding-Xuexiang-speaks-at-China-pavilion-at-COP29_Kamran-Guliyev_UN-Climate-Change_1c70f93269_v2-1400x934.jpg",
+                    "title":"COP29》川普揚言又退巴黎協定，中國趁勢主導全球氣候議題，為什麼這麼做？",
+                    "description":"每年的 COP 會議都在不同城市舉行，今年的 COP29 則在位於高加索地區、作為主要生產石油和天然氣的亞塞拜然首都巴庫（Baku)下落幕。談及本次 COP 的核心關鍵重點只有一個：資金，也就是氣候融資目標，對於已開發國家而言可謂是「毫無投資報酬率」的支出，過往在推動上持續分歧，而 COP29 落幕，本文整理影響關鍵領袖決議天秤之三大關鍵。Nielsen，簽約推動台大獨創的「臺灣生物信用額度方案- BioPlus」，希望能在全球氣候融資市場，提出台灣開發、具有商業價值的金融商品。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202412030006"
+                }
+            ]
+        },
+        {
+            "id":"history",
+            "title":"掌握歷屆<br class='big_title_br'>COP脈動",
+            "titleColor":"#fff",
+            "titleType":2,
+            "intro":[
+                "2024年全球能源需求成長2.2%，幾乎是過往10年平均值的兩倍，主因是電力。",
+                "由於全球高溫創紀錄、工業用電增加、AI和資料中心發展推升用電需求，年增幅達4.3%，遠高於全球GDP 3.2%的成長速度。",
+                "再生能源與核能供應首次合計達總發電量的40%，其中2024年再生能源新增裝置容量達到700GW，連續22年刷新紀錄。中國是再生能源擴張的主力，佔全球新增容量的三分之二。",
+                "全球能源相關碳排放成長0.8%，總量達37.8億噸。"
+            ],
+            "chart":[
+                {
+                    "topic":"風電",
+                    "value":8
+                },
+                {
+                    "topic":"太陽光電",
+                    "value":7
+                },
+                {
+                    "topic":"水力發電",
+                    "value":14
+                },
+                {
+                    "topic":"核能",
+                    "value":9.1
+                },
+                {
+                    "topic":"石油",
+                    "value":2.4
+                },
+                {
+                    "topic":"天然氣",
+                    "value":21.8
+                },
+                {
+                    "topic":"煤炭",
+                    "value":34.5
+                },
+                {
+                    "topic":"其他再生能源",
+                    "value":3.2
+                }
+            ],
+            "All_COP":[
+                {
+                    "img":"history_img_cop28.png",
+                    "url":"https://esg.businesstoday.com.tw/2023/cop28/"
+                },
+                {
+                    "img":"history_img_cop29.png",
+                    "url":"https://esg.businesstoday.com.tw/2024/cop29/"
+                }
+                
+            ]
+        },
+        {
+            "id":"companyLogo",
+            "title":"氣候倡議夥伴：",
+            "logo":""
+        }
+    ],
+    "footer":{
+        "phone": "服務電話：(02)2581-6196 #208/209/210",
+        "time": "服務時間：週一至五 09:00~17:30 例假日除外",
+        "esgWord":"ESG永續台灣",
+        "member": "",
+        "text1":"今周文化事業(股)公司 / 今周行銷(股)公司 / 今周出版(股)公司 版權所有",
+        "text2":"本網站圖文非經本社同意不得刊載",
+        "copyright":"Copyright © 2025 Business Today All rights reserved."
+    }
+
+}

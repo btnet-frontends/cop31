@@ -1,0 +1,27 @@
+{
+  "name": "cop30",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "aos": "^2.3.4",
+    "echarts": "^6.0.0",
+    "swiper": "^12.0.2",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "sass": "^1.93.2",
+    "vite": "^7.1.7"
+  }
+}

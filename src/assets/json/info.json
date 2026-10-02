@@ -1,0 +1,649 @@
+{
+    "menu": [
+        {
+            "tag":false,
+            "tagName":"前言",
+            "tagUrl":"#intro",
+            "tagClassName":"menu_intro"
+        },
+        {
+            "tag":false,
+            "tagName":"會議重點",
+            "tagUrl":"#article1",
+            "tagClassName":"menu_article1"
+        },
+        {
+            "tag":false,
+            "tagName":"台灣永續行動",
+            "tagUrl":"#article5",
+            "tagClassName":"menu_article5"
+        },
+        {
+            "tag":false,
+            "tagName":"會議效應",
+            "tagUrl":"#article4",
+            "tagClassName":"menu_article4"
+        },
+        {
+            "tag":false,
+            "tagName":"專家觀點",
+            "tagUrl":"#article2",
+            "tagClassName":"menu_article2"
+        },
+        {
+            "tag":false,
+            "tagName":"會議背景",
+            "tagUrl":"#article3",
+            "tagClassName":"menu_article3"
+        },
+        {
+            "tag":false,
+            "tagName":"現場人物圖輯",
+            "tagUrl":"#picture2",
+            "tagClassName":"menu_picture2"
+        },
+        {
+            "tag":false,
+            "tagName":"掌握歷屆COP脈動",
+            "tagUrl":"#history",
+            "tagClassName":"menu_history"
+        }
+    ],
+    "content":[
+        {
+            "id":"kv",
+            "title":"現場直擊<br class='big_title_br'>專題報導",
+            "titleColor":"#008d6a",
+            "subtitle":"《巴黎協定》10年的全球氣候大考，聚焦NDC3.0、氣候融資與氣候調適",
+            "subtitleColor":"#2f4f4f",
+            "label":"直擊巴西貝倫現場",
+            "labelColor":"#00738c",
+            "img1":"live1.jpg",
+            "img2":"live2.jpg",
+            "img3":"live3.png"
+        },
+        {
+            "id":"intro",
+            "title":"現場<br>直擊及報導",
+            "title2":"氣候變遷⼤挑戰 聯合國氣候變遷⼤會(COP 30)",
+            "titleColor":"#fff",
+            "titleType":1,
+            "img1":"",
+            "img2":"",
+            "img3":"",
+            "text":[
+                "今年聯合國氣候變遷大會COP30在巴西舉行，地點選在亞馬遜雨林邊境的港口城市貝倫。這座城市是通往世界最大熱帶雨林的重要門戶，也象徵全球氣候挑戰的前線。",
+                "今年是《巴黎協定》簽署十周年，但年初美國川普政府再次宣布退出，全球氣候變遷挑戰加劇，地緣政治局勢亦日益複雜，使本屆會議成為檢驗各國氣候承諾與決心的關鍵時刻。"
+            ]
+        },
+        {
+            "id":"picture",
+            "title":"現場實況<br class='big_title_br'>圖輯",
+            "titleColor":"#fff",
+            "titleType":2,
+            "data":[
+                {
+                    "img":"pic1-1.jpg",
+                    "caption":"COP30 在巴西北部的貝倫（Belém）舉行，這座城市位於亞馬遜河口，是通往雨林的重要門戶。遠方的建築背景就是貝倫市區。"
+                },
+                {
+                    "img":"pic1-2.jpg",
+                    "caption":"COP30 正逢《巴黎協定》簽署十週年的關鍵時刻，但今年到場的國家領袖人數不到 60 位，較往年冷清。圖為各國領袖代表的大合照。"
+                },
+                {
+                    "img":"pic1-3.jpg",
+                    "caption":"美國在總統川普的反氣候立場下未派出高階代表，但美國仍未完全缺席 COP30。民主黨籍的加州州長紐森（Gavin Newsom，圖右）出席多場演講與座談，成為主要美方代表。"
+                },
+                {
+                    "img":"pic1-4.jpg",
+                    "caption":"中國試圖填補美國在氣候談判中的空白，展館位於核心區相當搶眼，並大力展示太陽能、電池與電動車等產業實力，積極傳遞中國已準備好向世界提供減碳所需的清潔能源技術。"
+                },
+                {
+                    "img":"pic1-5.jpg",
+                    "caption":"COP30 談判場外，數百名雨林居民發起遊行，呼籲捍衛森林、領土權與氣候責任。這場被稱為「煤油燈遊行」（Porongas），群眾頭戴橡膠工人雨林中使用的小燈籠照亮整座城市。"
+                },
+                {
+                    "img":"pic1-6.jpg",
+                    "caption":"亞馬遜雨林原住民抗議巴西政府在亞馬遜河口進行石油勘探，並試圖闖入藍區（官方談判區），這是過去幾屆COP較少見的大規模抗議，但也凸顯公正轉型的急迫性。"
+                },
+                {
+                    "img":"pic1-7.jpg",
+                    "caption":"與COP30同期舉行的「人民高峰會」前夕，來自 60 個國家的 200 艘船聚集在貝倫的河道上，為亞馬遜雨林發聲，爭取氣候正義。"
+                },
+                {
+                    "img":"pic1-8.jpg",
+                    "caption":"COP30被稱為「森林 COP」，森林保護是一大重點。主辦國巴西推出的「熱帶森林永續機制」（Tropical Forests Forever Facility, TFFF）吸引55億美元資金承諾投入。然而，外界期待的「停止砍伐森林路線圖」最終未能通過，令許多倡議者失望。"
+                },
+                {
+                    "img":"pic1-9.jpg",
+                    "caption":"COP30 在未能納入淘汰化石燃料的遺憾聲中落幕。下一屆 COP31 將由土耳其在安塔利亞（Antalya）主辦，而談判主席則由澳洲擔任，主辦國與談判主席分屬不同國相當罕見。"
+                }
+            ]
+        },
+        {
+            "id":"intro2",
+            "intro2":[
+                {
+                    "label":"COP是什麼?",
+                    "content": [
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"COP是締約方大會(Conference of the Parties)的簡稱。每一個國際公約都有自己的「COP」，其中最有名的就是「聯合國氣候變遷綱要公約(UNFCCC)締約方大會」。"
+                        },
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"聯合國氣候變遷綱要公約締約方大會約於每年11月到12月間舉辦，在2022年梵蒂岡批准條約後，共有198個締約方。2025年即將在巴西的貝倫舉行第30次會議(COP30)。"
+                        },
+                        {
+                            "title":"",
+                            "titleColor":"",
+                            "description":"此外，由於各締約方領導者都會出席會議，也可以稱其為「氣候高峰會」。"
+                        }
+                    ]
+                },
+                {
+                    "label":"COP近年討論重點",
+                    "content": [
+                        {
+                            "title":"2024年COP29",
+                            "titleColor":"",
+                            "description":"設立新的氣候融資「集體量化目標(NCQG)」，全球公私部門2035年前每年提供1.3兆美元的氣候融資，幫助開發中國家應對氣候變遷。通過《巴黎協定》第6條，強化國際碳市場機制。"
+                        },
+                        {
+                            "title":"2023年COP28",
+                            "titleColor":"",
+                            "description":"首次做出以化石燃料為主體的共識，能源系統以公正、有序與公平的方式轉型離開(transitioning away)化石燃料，以達成2050淨零目標。"
+                        },
+                        {
+                            "title":"2022年COP27",
+                            "titleColor":"",
+                            "description":"同意設置「損失與損害基金」。設置基金的目的，是提供資金給受嚴重氣候變遷衝擊的發展中國家，協助這些國家強化調適氣候變遷的能力，同時有餘裕推動減緩溫室氣體排放的政策。"
+                        }
+                    ]
+                },
+                {
+                    "label":"COP 30討論重點",
+                    "content": [
+                        {
+                            "title":"全球氣候行動評估",
+                            "titleColor":"",
+                            "description":"各國需在 COP30 前提交 2035 年的國家自主貢獻(NDC3.0)。會議將特別檢視主要經濟體和排放大國的進展，並評估全球能否保持在 1.5℃ 減碳路徑上。"
+                        },
+                        {
+                            "title":"擴大氣候融資",
+                            "titleColor":"",
+                            "description":"氣候資金仍是焦點議題之一，「從巴庫到貝倫，1.3兆美元路線圖」報告預計將於COP30前發布，說明氣候融資如何從3000億美元增加到1.3兆美元。"
+                        },
+                        {
+                            "title":"氣候變遷調適",
+                            "titleColor":"",
+                            "description":"隨著氣溫上升，調適行動更顯重要。COP30 將檢視各國在「全球調適目標」(GGA)的進展、設定新適應性融資目標，並鼓勵提交國家調適計畫。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"article1",
+            "type":1,
+            "title":"直擊！<br class='big_title_br'>COP 30<br class='big_title_br'>會議重點",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181111/133_20251119143437.jpg_1140x855.jpg",
+                    "title":"中國綠能優勢成新籌碼，挾G77集團做老大、拉一帶一路國家組「碳關稅聯盟」，會改變全球氣候治理版圖嗎？",
+                    "description":"(今周刊1509)COP30直擊》當COP30會場還在一片凌亂時，中國與七十七國集團的會議，已擴大展開，與巴西總統主持的全球氣候領袖峰會，比肩而立。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511190052"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181107/114_20251119165521.jpg_1140x855.jpg",
+                    "title":"COP30氣候大考失色！全球升溫加劇減碳卡關，美國不陪玩、中國搶C位秀電動車，企業如何扛起氣候行動重任？",
+                    "description":"(今周刊1509)COP30直擊》適逢《巴黎協定》十周年，COP30在熱帶雨林門戶貝倫盛大登場。但在升溫控制不佳、多國元首缺席、眾多新版自主減排計畫遲到下，這場氣候峰會內外，都充斥著強烈的危機感。當政府與國際組織力不從心，已在淨零路上穩健前行的企業，能否接棒成為樞紐，關係著氣候行動成敗。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511190048"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181241/2b66ecd1c3eff699f55b7ce37ee9860e_20251122175304.jpeg_1140x855.jpg",
+                    "title":"COP30 閉幕現場／淘汰化石燃料被刪、談判卡關，原住民闖入藍區高喊「政治正在殺死我們的河流森林」【圖輯】",
+                    "description":"COP30直擊》於巴西貝倫舉辦的聯合國第 30 屆全球氣候高峰會（COP30），原訂於 11 月 21 日閉幕，但各國代表就「逐步淘汰化石燃料」一事產生嚴重分歧，多方代表僵持不下，至少需延會一天。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511220007"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181234/_RSC3412_20251122151632.JPG_1140x855.jpg",
+                    "title":"COP30變身國際原住民博覽會？多國搶秀自然碳匯潛力，背後原來跟巴黎協定第六條有關",
+                    "description":"COP30直擊》今年COP30上，許多自然資源豐沛、族群多元的國家都選擇以原住民文化作為展館亮點，會場中，許多穿著各式傳統服飾的與會者穿梭往來，整個大會彷彿化身另類的世界博覽會。不過這場「文化盛宴」背後，其實是一場全球碳市場新賽局。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511210047"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181200/591648b0-c63e-11f0-8c06-f5d460985095_20251121123334.jpg (1)_1140x855.jpg",
+                    "title":"【影】COP30 閉幕倒數遇火災！多項關鍵談判持續卡關，決議恐延後出爐：主要衝擊哪些核心議題？",
+                    "description":"COP30直擊》聯合國氣候峰會（COP30）進入最後倒數，但原本就因談判僵局而進度落後的會議，當地時間20日下午又遭遇突發火災，迫使談判全面暫停，藍區（Blue Zone）緊急封閉。各方原預期19日能完成協議文本，但如今峰會距離預定21日落幕不到 24 小時，能否如期落幕再度增添變數。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511210013"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181197/iStock-1148011738 (1)_20251121104545.jpg_1140x855.jpg",
+                    "title":"COP30「淘汰化石燃料」再成棘手焦點：82 國倡議全球路線圖，引發哪些關鍵討論？",
+                    "description":"COP30直擊》COP30倒數落幕，82個國家呼籲啟動一項淘汰化石燃料的全球路線圖，但產油國仍主張應採取多元減排路徑，而不應直接鎖定化石燃料本身。這項多年來在氣候談判場域中反覆被產油國擋下的議題，今年的命運將落在《巴黎協定》195個締約方中尚未表態的中立國手中。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511210010"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/jiayichen_401/202511/251103/11171.jpeg",
+                    "title":"COP30 現場圖輯／數萬人湧入貝倫街頭，「雨林的怒吼」喊出了哪些被忽略的聲音？",
+                    "description":"COP30直擊》15 日由全球社運團體、原住民族與NGO共同號召的「人民高峰會」（Cupula dos Povos）在 COP30 談判場外舉行大遊行，數以萬計的人潮佔滿了巴西貝倫市中心主街，一路從貝倫的聖布拉斯市集出發，走到談判會場周圍。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511170027"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180955/AdobeStock_457142881_20251117112048.jpeg_1140x855.jpg",
+                    "title":"COP30 兩大報告關鍵新訊：全球排放曲線首見下降趨勢，但2035僅降12%？關鍵缺口在哪裡",
+                    "description":"COP30直擊》COP30 進入第二週前，終於迎來一則好消息。COP 主辦方也就是聯合國氣候變化綱要公約（UNFCCC）上週發布新版《國家自主貢獻》（Nationally Determined Contributions, NDCs）綜合報告，全球減碳總算有了基本成果，預估2035年全球碳排量，將比2019降12%。這是全球溫室氣體排放曲線，首次出現下降趨勢。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511160014"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180902/image-4160-d577a8793b36a903b2b00463daf59dfe_20251114115732.jpeg_1140x855.jpg",
+                    "title":"COP30焦點》極端天氣加劇，調適資金缺口持續擴大！多邊開發銀行推4大方向強化氣候投資",
+                    "description":"COP30直擊》近期的強颱鳳凰、颶風梅莉莎與巴西龍捲風，再次凸顯極端天氣災害日益加劇。正在巴西貝倫舉行的聯合國氣候峰會（COP30）上，各國代表正積極尋求資金與解方，協助弱勢社群應對惡化中的氣候衝擊，並強化氣候調適行動。多邊開發銀行（MDB）近日也宣布加強承諾，並發布新報告，提出針對自然與生物多樣性資源配置的新指標與方法學，期望以共同標準提升透明度與行動成效。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180702/post/202511140016"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180882/ac915290005cb80c818d134226ca3380 (1)_20251114100137.jpeg_1140x855.jpg",
+                    "title":"COP30 現場圖輯／不夠永續的雨林峰會？塑膠杯、瓶裝水隨處可見，美中領袖缺席下成果恐落空",
+                    "description":"COP30直擊》被稱為「亞馬遜森林 COP 」的第 30 屆聯合國氣候變遷大會（COP30）在 11 月 10 日拉開帷幕。來自全球逾 5 萬名代表齊聚位在亞馬遜雨林入口的港口城市巴西貝倫（Belém）參與盛會。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511130048"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180812/1_20251112152831.jpg_1140x855.jpg",
+                    "title":"巴西COP30場外直擊！原住民抗議亞馬遜雨林開發，衝撞會場「我們的土地是非賣品」",
+                    "description":"COP30直擊》聯合國氣候變化大會COP30從本月10日起在巴西貝倫舉行，今周刊記者現場直擊11日傍晚卻有數十名原住民與社會運動成員在場外抗議，高舉「我們的土地是非賣品」等標語，並傳出與現場維安人員發生衝突。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511120052"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/jiayichen_401/202511/251101/image-1600-1d22c23753be25aefce7c4cccdccb24e%20(1).jpeg",
+                    "title":"永續燃料翻4倍、倡議新碳市場聯盟！COP30領袖峰會拋3大承諾，能改變全球氣候行動嗎？",
+                    "description":"COP30直擊》第30屆聯合國氣候大會（COP30）於11月6日至7日舉行領袖峰會，開幕即傳出多項重大承諾。多國同意將永續燃料使用量提高至四倍、擴大由巴西主導的碳市場聯盟，並宣布投入55億美元保護熱帶雨林。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511110019"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180722/PXL_20251110_150634019 (2)_20251111100642.jpg_1140x855.jpg",
+                    "title":"用回收水釀啤酒？COP30貝倫峰會最吸睛的「兩種水」，意外成為永續焦點",
+                    "description":"COP30 直擊》這次COP 30舉辦地巴西貝倫城，位於赤道附近，炎熱潮濕，不少與會者都受不了，補充水分就成為非常重要的事，但對於能拿到官方藍區（blue zone）的與會者，有個非常不錯的福利，能隨時在散布會場角落的冰箱中，拿到免費的「曼巴水」。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511110011"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/jiayichen_401/202511/251101/1.jpg",
+                    "title":"COP30現場直擊／飛越半個地球只為這片雨林！一下機，就看見亞馬遜如何被包裝成綠色商機",
+                    "description":"COP30直擊》今年的COP 30，幾乎對於所有從台灣出發的人士，都是一個煎熬的過程。不論是往東飛或往西飛，都是40小時以上的航程。往東飛，必須越過太平洋及美洲大陸，從美國邁阿密轉機到舉辦地巴西貝倫（Belem）；若往西飛，則必須先搭10幾個小時以上的飛機，飛越歐亞大陸，到歐洲大城市轉機。巴西原是葡萄牙殖民地，兩地班機不少，因此不少人選擇從葡國首都里斯本，穿越大西洋，先飛巴西大城聖保羅，再轉機貝倫。不管路徑如何選擇，輾轉轉機，都得花兩天的時間。很多人心裡都心裡都埋怨：為何要跑到這個在地圖上都不容易找到的城市，舉辦氣候峰會？一下機場，答案很清楚：雨林！",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511100008"
+                },
+                {
+                    "type":"article1",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180041/image-1600-e4ca64b804c052926824c2877ccfa649 (1)_20251027153237.jpeg_1140x855.jpg",
+                    "title":"COP30四大重點一次看！NDC3.0這個重大改變，可能關乎台灣未來碳價格",
+                    "description":"COP30直擊》本屆COP 30（Conference of the Parties 30）聯合國氣候峰會，將從11月10日起，在巴西城市的貝倫（Belem）舉行，有別於之前的氣候峰會，今年的COP30，有其特殊的歷史意義。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510270024"
+                }
+            ]
+        },
+        {
+            "id":"article5",
+            "type":2,
+            "title":"台灣永續行動<br class='big_title_br'>前進 COP30",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article3",
+                    "img":"article2_1_pc.png",
+                    "img2":"article2_1_pc.png",
+                    "title":"南山尹崇堯COP30現場觀察：看見壽險業新任務，健康損失保單與熱傷害保障成關鍵",
+                    "description":"(今周刊1509)COP30台灣》手握逾五兆元資產的南山人壽董事長尹崇堯，今年首度踏入COP會場，他帶著問題，思考壽險業者如何在氣候調適行動上發揮更大影響力，前進現場要找出全新解答。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511190049"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181282/yuriy-vertikov-0BwXhfRDvpI-unsplash_20251124125506.jpg_1140x855.jpg",
+                    "title":"全球冷卻需求暴增、碳排恐翻倍！台灣響應全球冷卻行動，端出哪些關鍵對策？",
+                    "description":"COP30台灣》全球暖化加速，冷卻需求日益增加。聯合國環境規劃署（UNEP）在COP30提出「全球冷卻觀察報告」，期望在2050年將冷卻相關設備的溫室氣體排放量減少64%。環境部表示，台灣也與國際同步，正研擬冷卻行動計畫，並從提高設備能源效率等三大面向進行盤點。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511240018"
+                },
+                {
+                    "type":"article3",
+                    "img":"article5_4_mb.png",
+                    "img2":"article5_4_pc.png",
+                    "title":"COP30》台灣科技力亮相！AI照明減光害、綠色記憶體、天災預警系統三大永續解方一次看",
+                    "description":"COP30台灣》聯合國氣候變化綱要公約第三十屆締約方大會（COP30）11月10日至21日在巴西貝倫展開，而台灣氣候聯盟今年第五度前進大會，以【數位賦能三部曲：共同・共創・共好（Digital Empowerment Trilogy: Together, Create, Prosper）】為題，在藍區（官方談判區）主辦三場論壇，盼讓世界看見台灣科技業的淨零決心。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511210030"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181214/_RSC3278.jpeg_1140x855.jpg",
+                    "img2":"article5_3_pc.png",
+                    "title":"台灣被點名擁有全球數位淨零轉型潛力！台灣氣候聯盟：綠電不足恐拖慢產業減碳",
+                    "description":"COP30台灣》聯合國氣候變化綱要公約第三十屆締約方大會（COP30）11月10日至21日在巴西貝倫展開，而台灣氣候聯盟今年第五度前進大會，以【數位賦能三部曲：共同・共創・共好（Digital Empowerment Trilogy: Together, Create, Prosper）】為題，在藍區（官方談判區）主辦三場論壇，盼讓世界看見台灣科技業的淨零決心。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511210027"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/jiayichen_401/202511/251103/011.jpeg",
+                    "title":"COP30》亞太碳定價與能源轉型面臨哪些關鍵挑戰？台灣串聯日韓澳專家解讀",
+                    "description":"COP30台灣》面對逐步升高的氣候承諾，各國正重新檢視碳定價與能源轉型的制度效力。COP30 於巴西貝倫召開之際，台灣氣候行動網絡(TCAN)也串聯日本、韓國與澳洲專家，分享最新政策調整與挑戰，並聚焦台灣在新減碳目標下如何強化碳費制度與再生能源布局。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511200034"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181055/S__67772504_20251119131038.jpg_1140x855.jpg",
+                    "img2":"article5_2_pc.png",
+                    "title":"國泰金看COP30》自然金融成新焦點，三大觀察解析全球資金如何流向自然資本",
+                    "description":"COP30台灣》聯合國氣候大會 COP30 在巴西貝倫舉行，熱帶雨林、自然保育與生物多樣性成為焦點，象徵氣候行動正走向以自然為本的新階段。國泰金控自 COP26 起即積極參與，今年再度前往現場，觀察到自然議題與金融的連結正快速加深，並於 18 日分享第一手自然金融的三大關鍵洞察。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511180049"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180758/R0003918_20251113135727.jpg_1140x855.jpg",
+                    "title":"台達前進COP30！AI 能救珊瑚、也能教綠建築？解鎖科技如何成為氣候解方",
+                    "description":"COP30台灣》COP30正於南半球的巴西貝倫舉行，這座通往亞馬遜雨林的城市，讓「生物多樣性」與「氣候調適」成為本屆焦點，也象徵全球氣候行動正邁向與自然共存的新階段。台達已連續18年參與聯合國氣候大會，今年以「AI for Green」為主題，聚焦人工智慧在氣候與自然議題的應用，並將於17日與19日於官方談判區（Blue Zone）舉辦兩場論壇，分享AI如何協助珊瑚復育與強化綠建築韌性。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511110047"
+                }
+            ]
+        },
+        {
+            "id":"article4",
+            "type":3,
+            "title":"會議效應",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181509/54939975451_7cbe038bd0_k_20251128153702.jpg_1140x855.jpg",
+                    "title":"CBAM是氣候工具還是貿易壁壘？COP30氣候談判中的貿易新戰場，「IFCCT」將如何影響全球供應鏈減碳規則",
+                    "description":"COP30效應》歐盟在2021年宣布「碳邊境調整機制」（CBAM）草案，預計2026年全面啟動；美國川普總統上任後發起關稅戰，近期美國最高法院有望針對川普政府加徵全球性關稅做出裁決，若川普政府勝訴，此一結果可能使總統有權對進口高碳產品徵收關稅。迫使各國重新思考如何在貿易與氣候承諾之間取得平衡。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511280011"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181454/54932720290_dcefd3a488_k_20251127013316.jpg_1140x855.jpg",
+                    "title":"COP30落幕》森林基金衝上70 億美元、原住民參與創新高，為何「森林 COP」零毀林路線圖仍然破局？",
+                    "description":"COP30效應》聯合國第30屆氣候變化大會（COP30）於巴西亞馬遜雨林城市貝倫（Belém）落幕，各國釋出數十億美元的森林保育資金、創下史上最多原住民領袖參與紀錄，但備受期待的「全球零毀林（zero‐deforestation）路線圖」最終未達成共識，使這場外界稱為「森林 COP」的會議成果呈現喜憂參半。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511270002"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181434/cq5dam_20251126212738.web_1140x855.jpg",
+                    "title":"COP30後「企業氣候轉型計畫」關注升溫：防漂綠、減碳與轉型金融都靠它，這項新工具是什麼？台灣如何跟上？",
+                    "description":"COP30效應》《巴黎協定》屆滿十週年。十年前，各國普遍缺乏淨零目標與政策，遑論企業，至今全球83%的GDP都已涵蓋淨零目標，各國政府亦與私部門合作展開行動。然而，近年動盪的地緣政治、氣候與社會議題分化、關稅與貿易衝突，乃至錯假資訊散播，正在拖累各國政府應對氣候變遷的腳步。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511260074"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181281/54942996609_a2a8cecded_b_20251126162137.jpg_1140x855.jpg",
+                    "title":"COP30落幕》淘汰化石燃料再度卡關、氣候調適資金提高兩倍，5大重點看懂本屆成果與遺憾",
+                    "description":"COP30效應》第30屆聯合國氣候大會（COP30）歷經馬拉松式的12小時延長討論後，於週六（22日）下午閉幕。雖然淘汰化石燃料的路線圖、禁止砍伐森林路線圖雙雙觸礁，但在政治局勢動盪、氣候否定論的挑戰中，最終仍達成氣候調適資金增兩倍、啟動加速器敦促各國減碳、以及設立公正轉型機制等多項成果。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511240017"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181147/54914573201_c1468bb2b2 (1)_20251120101333.jpg_1140x855.jpg",
+                    "title":"COP30 談判僵局，全球碳成本經濟硬仗開打：台灣出口產業恐面臨兩大挑戰",
+                    "description":"COP30效應》COP30 不只是氣候外交，它正在重塑全球經濟規則。歐盟 CBAM 加速擴張、國際碳市場誠信革命，意味著碳成本將成為企業競爭力的核心。對台灣出口導向產業而言，這不僅是挑戰，更是生存戰。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511200007"
+                }
+            ]
+        },
+        {
+            "id":"article2",
+            "type":2,
+            "title":"COP 30<br class='big_title_br'>專家觀點",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181948/138 (3)_20251209122121.jpg_1140x855.jpg",
+                    "title":"台灣企業做全球生意，不能只談減碳！「碳交易之父」李堅明揭：氣候調適時代的兩大關鍵任務",
+                    "description":"COP30觀點》素有台灣「碳交易之父」稱號的台北大學自然資源與環境管理所專任教授李堅明，今年飛了40小時的航程，遠赴巴西貝倫，參加COP30聯合國氣候高峰會議， 從2014年至今，他已經參與不下十次COP會議，對於COP的動態及影響，有多年深刻的觀察。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202512090021"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181113/136_20251119144839.jpg_1140x855.jpg",
+                    "title":"COP30兩大碳市場聯盟成形！碳交易之父李堅明解析全球碳權新規則：台灣如何走好下一步？",
+                    "description":"(今周刊1509)COP30觀點》隨著COP30推動全球碳市場整合，討論重點包含提升各國NDC，共同建立高誠信碳權原則等，台灣也應同步投入制度與市場建設，才能積極參與全球氣候金融未來發展。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511190054"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/181097/w1200 (3)_20251120185012.jpg_1140x855.jpg",
+                    "title":"聯合國報告示警：1.5°C 超標恐在十年內發生！本世紀末升溫恐飆至 2.8°C，G20國家行動成關鍵",
+                    "description":"COP30觀點》聯合國環境規劃署發布的最新《排放差距報告》顯示，全球升溫預測雖略降至 2.3–2.8°C，但仍遠高於《巴黎協定》1.5°C目標：即使各國完全落實其國家自定貢獻（NDCs），升溫仍將達 2.3–2.5°C，現行政策更恐升至 2.8°C。加上美國將於明年1月正式退出巴黎協定，預計將使升溫增加約0.1°C。本文將解析最新升溫情境、2030 與 2035 減排缺口，以及 G20 在全球氣候行動中的決定性角色。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511190038"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180301/shutterstock_2684461353_20251031163309.jpg_1140x855.jpg",
+                    "title":"減碳無法獨善其身？台灣碳權如何與國際接軌，實踐減碳雄心！",
+                    "description":"台灣不是UNFCCC的會員國，碳權交易如何與國際接軌？必須善用民間力量與管道。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510310039"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180879/shutterstock_2414628231 (1)_20251113173042.jpg_1140x855.jpg",
+                    "title":"全球碳預算》2025碳排持續上升、剩4年耗盡額度，專家警告「1.5°C幾乎難守」點出台灣關鍵治理缺口",
+                    "description":"COP30 觀點》全球碳排持續上升！全球碳計畫研究團隊今（13）日發布《2025 全球碳預算報告》，指出今年全球碳排放量預計較去年再增 1.1%。依照目前的排放速度推算，全球可用於將升溫控制在 1.5°C 以內的碳預算僅剩約 4 年。台灣科技媒體中心也邀集三位專家解析這份報告對全球與台灣的意涵。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511130045"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/176376/1024x688_wmkn_87521561846_0_20250725182843.jpg_1140x855.jpg",
+                    "title":"COP30關注生物多樣性！生物信用額度究竟是商機還是陷阱？價差高達12萬倍【風險分析】",
+                    "description":"COP30觀點》位於巴西亞馬遜雨林邊境的貝倫（Belém）將於11月主辦聯合國氣候大會（COP30），也使得「生物多樣性」成為國際關注焦點。世界經濟論壇（WEF）在2022年發起「生物多樣性信用額度倡議」（Biodiversity Credits Initiative），試圖透過市場機制創造投資誘因，但這項新興市場發展至今進展如何？又藏有哪些投資風險？",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202507250038"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180151/worker-pixabay_20251029122215.jpg_1140x855.jpg",
+                    "title":"論壇／COP30全球公正轉型政策有望進化，台灣國家行動計畫可否落實公正轉型2.0？",
+                    "description":"COP30觀點》第30次聯合國氣候變化綱要公約會議（COP30）將在巴西亞馬遜雨林的港口城市貝倫（Belém）登場。本屆大會適逢《巴黎協定》簽署十週年以及各國提交第三版的「國家自定貢獻」（Nationally Determined Contributions，NDC 3.0）、強化2035年減量目標，各方可謂高度關注各項議程的進展與具體承諾；許多國家代表與公民團體亦趁大會前積極提出各項倡議，企圖為接續的談判議程定錨。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510290037"
+                },
+                {
+                    "type":"article3",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/jiayichen_401/202511/shutterstock_2363319135%20(1)_20250731175305_jpg_1140x855.jpg",
+                    "title":"COP30倒數看重點！全球都在為氣候資金傷腦筋，專家解析台灣如何為氣候調適找錢？",
+                    "description":"COP30觀點》聯合國氣候大會 COP30 即將於下週在巴西登場，將聚焦全球如何兌現減碳承諾、填補氣候氣候資金缺口。台灣科技媒體中心今（4）天特別邀請國內學者專家剖析本屆 COP30 的核心議題與台灣的氣候行動挑戰。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511040035"
+                }
+            ]
+        },
+        {
+            "id":"article3",
+            "type":3,
+            "title":"會議背景",
+            "titleColor":"#fff",
+            "titleType":2,
+            "articles":[
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180982/54913562140_726cafae0e_b_20251117133608.jpg_1140x855.jpg",
+                    "title":"看懂COP30關鍵議題！5 大 QA 拆解全球調適目標，重點帶你快速看",
+                    "description":"COP30背景》第30屆聯合國氣候變遷大會（COP30）11月10日於巴西貝倫召開，本屆大會核心目標之一是制定「全球調適目標」（Global Goal on Adaptation, GGA）的指標。從上千項指標中敲定一份百項的清單，將引領全球調適行動方向，也是未來衡量全球調適目標進展的依據。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202511170024"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/179760/mika-baumeister-jXPQY1em3Ew-unsplash_20251020163612.jpg_1140x855.jpg",
+                    "title":"COP30倒數，全球NDC3.0盤點！巴黎協定十年後，各國2035減碳承諾揭示哪些關鍵挑戰？【分析】",
+                    "description":"COP30背景》2025年是「巴黎協定」簽署十週年。巴黎協定不僅設計每五年更新一輪的國家自定貢獻（Nationally Determined Contributions, NDCs），並透過全球盤點（Global Stcoktake）強化透明度與集體責任，使氣候承諾不再是一次性的宣示，而是能不斷調整、逐步提高減碳目標的進程。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510200039"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/176440/20250717 A1_20250728141939.jpg_1140x855.jpg",
+                    "title":"為COP30氣候大會蓋「永續公路」，卻要犧牲亞馬遜雨林？巴西貝倫引起生態爭議",
+                    "description":"COP30背景》位於巴西亞馬遜雨林邊境的港口城市貝倫，是今年聯合國氣候大會（COP30）的舉辦地。近來卻傳出當地為了承辦這場國際盛會，正在砍伐森林、興建橫跨雨林的高速公路，飽受當地居民、專家及環保人士批評。一場目標守護氣候的國際會議，卻可能以犧牲全球最重要的碳匯與生態系統為代價，引發高度爭議。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180687/post/202507280020"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/179126/beautiful-shot-green-field-side-dirt-road-with-building-cloudy-sky-800x531_20251003112536.jpg_1140x855.jpg",
+                    "title":"COP30 碳移除首設獨立展館！ICVCM 通過 6 項新方法學，全球碳市場迎來新階段",
+                    "description":"COP30背景》碳移除技術（Carbon dioxide removal，CDR）逐漸受到各國重視，11月登場的聯合國氣候峰會（COP30）將首度設立專屬展館，預計將匯集全球政府及產業代表，邀集全球政府與產業代表，共同探討如何強化該技術在氣候與經濟上的效益。同時，國際倡議組織「自願性碳市場誠信委員會」（ICVCM）也通過新一批碳移除方法學，為市場參與者提供高品質碳權標準。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202510030013"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180413/image-1600-92738c0c974081437f24099d81d117b4_20251104125024.jpeg_1140x855.jpg",
+                    "title":"不到60國領袖出席、美國不派官方代表！COP30遭批「最具排他性峰會」，全球氣候合作如何繼續？",
+                    "description":"COP30背景》距離聯合國氣候峰會COP30 開幕僅剩不到一週，會前氣氛卻比預期低迷。今年適逢《巴黎協定》簽署十週年，原本應是各國檢視減碳進展、更新NDC的關鍵時刻。然而，截至目前，確認出席的各國領袖仍不到 60 位，較往年明顯減少。美國總統川普因再度退出《巴黎協定》，白宮已表示美國不會派任何高級官員參與。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511040022"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180570/forest1_20251106175725.jpg_1140x855.jpg",
+                    "title":"COP30「森林COP」登場！巴西以雨林為舞台，會為氣候金融與碳市場帶來新契機嗎？",
+                    "description":"COP30背景》今年11月，全球氣候政治的焦點將轉向南半球。第30屆「聯合國氣候變遷大會」COP30即將在巴西北部的城市貝倫（Belém）登場，這座坐落於亞馬遜河口的城市，將成為各國談判代表、科學家、企業與公民社會共同辯論未來世界環境變遷路徑的舞台。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180702/post/202511060044"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180608/R0003875 2_20251107154515.jpg_1140x855.jpg",
+                    "title":"台灣 NDC3.0 拍板！彭啓明稱「登月級挑戰」，COP30 台灣關注氣候調適與碳定價",
+                    "description":"COP30背景》聯合國氣候峰會 COP30 將於 11 日在巴西貝倫正式登場。環境部今（7）日舉行記者會，公布台灣國家自定貢獻（NDC 3.0），設定2035 年減碳目標為38%±2%。環境部長彭啓明形容，這是一個「極具挑戰性的登月計畫」，必須大家共同努力才能達標。環境部也指出，氣候調適與碳定價也是此次台灣特別關注的焦點；而為即時掌握全球氣候談判最新進展，環境部也啟動「COP30 戰情中心」，並在氣候署官網增設「參與國際氣候行動」專區。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/190807/post/202511070032"
+                },
+                {
+                    "type":"article2",
+                    "img":"https://doqvf81n9htmm.cloudfront.net/data/crop_article/180615/COP30-convention-centre-Belem (1)_20251107172208.jpg_1140x855.jpg",
+                    "title":"COP30 氣候融資焦點》「巴庫－貝倫路徑圖」出爐！五大策略如何撬動 1.3 兆美元氣候資金？",
+                    "description":"COP30背景》COP30主辦國巴西及COP29主辦國亞塞拜然，11月5日共同公佈《巴庫至貝倫路線圖》( Baku to Belém Roadmap)，說明全球如何在2035 年將氣候融資規模擴大到每年「至少1.3兆美元」，以幫助發展中國家應對氣候變遷。",
+                    "url":"https://esg.businesstoday.com.tw/article/category/180702/post/202511070039"
+                }
+            ]
+        },
+        {
+            "id":"picture2",
+            "title":"現場人物圖輯",
+            "subtitle":"王之杰攝",
+            "titleColor":"#fff",
+            "titleType":2,
+            "intro":[
+                "自去年COP29通過《巴黎協定》第 6.4 條、讓自然碳匯更容易進行跨國交易後，擁有森林、熱帶泥炭地等豐富資源的開發中國家，也在COP30把握機會展現自身優勢。",
+                "但自然碳匯並非單純的土地盤點，它牽動原住民族文化、公正轉型與氣候正義。今年會場中，各國紛紛把「文化」搬上談判現場：傳統服飾、羽冠、圖騰與歌舞成為強烈視覺語言，象徵自然與族群生活的緊密連結。",
+                "最吸睛的莫過於印尼館。展區不僅比英國、德國更大，位處會場核心，更設置舞台，讓印尼境內各種不同民族，穿著自己的服裝，演出舞蹈音樂，展現其發展自然碳匯的潛力，也讓印尼成為本屆氣候峰會存在感最強的國家之一。"
+            ],
+            "data":[
+                {
+                    "img":"pic1.jpg",
+                    "caption":"主辦國巴西原住民族多元，是本屆參與最踴躍的國家，很多地理課本看到的圖片，都真實出現在會場，兩位女士來自亞馬遜河域中間心臟位子的卡亞波族 (Kayapó)，華麗的羽毛頭 (cocar)，是重要特色。"
+                },
+                {
+                    "img":"pic2.jpg",
+                    "caption":"與巴西共享亞馬遜流域的秘魯原住民，圖中是阿沙寧卡族 (Ashaninka)，寬鬆棉質長及腳踝的長袍 (Kushma) 是其特色，臉上彩繪，常使用胭脂樹紅 (Urucum) 或熱帶水果汁液 (Huito)。"
+                },
+                {
+                    "img":"pic3.jpg",
+                    "caption":"印尼的達雅克族 (Dayak) ，頭飾鑲嵌著犀鳥 (Hornbill) 羽毛，是他們的特色，其舞蹈節目是印尼館開幕的重頭戲，表演搭配音樂，立刻藍區大量人潮目光。"
+                },
+                {
+                    "img":"pic4.jpg",
+                    "caption":"印尼蘇門答臘島的米南佳保族(Minangkabau)，金色尖形頭飾是一個重要的特色，通常象徵著身份，並且經常出現在傳統婚禮或文化活動中。"
+                },
+                {
+                    "img":"pic5.jpg",
+                    "caption":"圖中是馬來西亞的原住民加里曼丹 (Kalimantan)，島上特有的原住民族服裝，精美的珠飾刺繡、強烈的紅色、胸前的巨大項圈裝飾，是他們重要特色。"
+                },
+                {
+                    "img":"pic6.png",
+                    "caption":"COP30的吉祥物亞馬遜「紅孩兒」(Curupira)，被視為亞馬遜雨林的守護神，也是原住民族的象徵。"
+                }
+            ]
+        },
+        {
+            "id":"history",
+            "title":"掌握歷屆<br class='big_title_br'>COP脈動",
+            "titleColor":"#fff",
+            "titleType":2,
+            "intro":[
+                "2024年全球能源需求成長2.2%，幾乎是過往10年平均值的兩倍，主因是電力。",
+                "由於全球高溫創紀錄、工業用電增加、AI和資料中心發展推升用電需求，年增幅達4.3%，遠高於全球GDP 3.2%的成長速度。",
+                "再生能源與核能供應首次合計達總發電量的40%，其中2024年再生能源新增裝置容量達到700GW，連續22年刷新紀錄。中國是再生能源擴張的主力，佔全球新增容量的三分之二。",
+                "全球能源相關碳排放成長0.8%，總量達37.8億噸。"
+            ],
+            "chart":[
+                {
+                    "topic":"風電",
+                    "value":8
+                },
+                {
+                    "topic":"太陽光電",
+                    "value":7
+                },
+                {
+                    "topic":"水力發電",
+                    "value":14
+                },
+                {
+                    "topic":"核能",
+                    "value":9.1
+                },
+                {
+                    "topic":"石油",
+                    "value":2.4
+                },
+                {
+                    "topic":"天然氣",
+                    "value":21.8
+                },
+                {
+                    "topic":"煤炭",
+                    "value":34.5
+                },
+                {
+                    "topic":"其他再生能源",
+                    "value":3.2
+                }
+            ],
+            "All_COP":[
+                {
+                    "img":"history_img_cop28.png",
+                    "url":"https://esg.businesstoday.com.tw/2023/cop28/"
+                },
+                {
+                    "img":"history_img_cop29.png",
+                    "url":"https://esg.businesstoday.com.tw/2024/cop29/"
+                }
+                
+            ]
+        },
+        {
+            "id":"companyLogo",
+            "title":"氣候倡議夥伴：",
+            "logo":""
+        }
+    ],
+    "footer":{
+        "phone": "服務電話：(02)2581-6196 #208/209/210",
+        "time": "服務時間：週一至五 09:00~17:30 例假日除外",
+        "esgWord":"ESG永續台灣",
+        "member": "",
+        "text1":"今周文化事業(股)公司 / 今周行銷(股)公司 / 今周出版(股)公司 版權所有",
+        "text2":"本網站圖文非經本社同意不得刊載",
+        "copyright":"Copyright © 2025 Business Today All rights reserved."
+    }
+
+}
