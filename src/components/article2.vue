@@ -22,9 +22,9 @@
 <template>
     <div class="content_wrap">
         <Title :infoData="infoData" />
-        <div class="article2_box max-w-[1366px] p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+        <div class="article2_box max-w-[1366px] px-3 py-8 sm:px-6 md:px-8 lg:p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
            <div class="swiper_area">
-                <Slider :cardData="infoData.articles" />
+                <Slider :cardData="infoData.articles" variant="vertical" sliderId="article2-slider" />
            </div>
            <a
                 href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP30觀點"
@@ -38,13 +38,13 @@
 
 <style scoped lang="scss">
     .more_btn{
-        border-radius: 50px;
-        box-shadow: 0 20px 40px rgba(0, 115, 140, 0.2);
+        filter: drop-shadow(0 12px 24px rgba(0, 115, 140, 0.25));
     }
 
     .more_btn:hover{
         transition: .3s;
         transform: scale(1.1);
+        filter: drop-shadow(0 16px 32px rgba(0, 115, 140, 0.35));
     }
 
     @media screen and (max-width: 1200px) {

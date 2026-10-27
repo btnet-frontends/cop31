@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   site: 'https://esg.businesstoday.com.tw',
-  base: '/2025/cop30/',
+  base: '/2026/cop31/',
   plugins: [
     vue(),
     tailwindcss()

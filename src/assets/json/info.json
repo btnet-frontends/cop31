@@ -1,47 +1,37 @@
 {
     "menu": [
+
         {
             "tag":false,
-            "tagName":"前言",
-            "tagUrl":"#intro",
-            "tagClassName":"menu_intro"
-        },
-        {
-            "tag":false,
-            "tagName":"會議重點",
+            "tagName":"直擊!COP31會議重點",
             "tagUrl":"#article1",
             "tagClassName":"menu_article1"
         },
         {
             "tag":false,
-            "tagName":"台灣永續行動",
+            "tagName":"COP31專家觀點",
             "tagUrl":"#article5",
             "tagClassName":"menu_article5"
         },
         {
             "tag":false,
             "tagName":"會議效應",
-            "tagUrl":"#article4",
+            "tagUrl":"#article3",
             "tagClassName":"menu_article4"
         },
         {
             "tag":false,
-            "tagName":"專家觀點",
+            "tagName":"關鍵報告解析",
             "tagUrl":"#article2",
             "tagClassName":"menu_article2"
         },
         {
             "tag":false,
-            "tagName":"會議背景",
-            "tagUrl":"#article3",
+            "tagName":"COP31會議背景",
+            "tagUrl":"#article4",
             "tagClassName":"menu_article3"
         },
-        {
-            "tag":false,
-            "tagName":"現場人物圖輯",
-            "tagUrl":"#picture2",
-            "tagClassName":"menu_picture2"
-        },
+
         {
             "tag":false,
             "tagName":"掌握歷屆COP脈動",
@@ -56,8 +46,8 @@
             "titleColor":"#008d6a",
             "subtitle":"《巴黎協定》10年的全球氣候大考，聚焦NDC3.0、氣候融資與氣候調適",
             "subtitleColor":"#2f4f4f",
-            "label":"直擊巴西貝倫現場",
-            "labelColor":"#00738c",
+            "label":"直擊土耳其安塔利亞現場",
+            "labelColor":"#FFFFFF",
             "img1":"live1.jpg",
             "img2":"live2.jpg",
             "img3":"live3.png"
@@ -65,22 +55,23 @@
         {
             "id":"intro",
             "title":"現場<br>直擊及報導",
-            "title2":"氣候變遷⼤挑戰 聯合國氣候變遷⼤會(COP 30)",
+            "title2":"氣候變遷大挑戰 聯合國氣候變遷大會(COP 31)",
             "titleColor":"#fff",
             "titleType":1,
             "img1":"",
             "img2":"",
             "img3":"",
             "text":[
-                "今年聯合國氣候變遷大會COP30在巴西舉行，地點選在亞馬遜雨林邊境的港口城市貝倫。這座城市是通往世界最大熱帶雨林的重要門戶，也象徵全球氣候挑戰的前線。",
-                "今年是《巴黎協定》簽署十周年，但年初美國川普政府再次宣布退出，全球氣候變遷挑戰加劇，地緣政治局勢亦日益複雜，使本屆會議成為檢驗各國氣候承諾與決心的關鍵時刻。"
+                "COP31聯合國氣候峰會，將聚焦電氣化、綠色工業化、廢棄物減半、韌性城市、氣候融資與氣候教育六大目標，把氣候承諾轉化為具體行動。其中，「35×35」倡議目標在2035年讓電力占全球最終能源消費的比重達35%，除了加速電動車普及，更須擴大再生能源、電網與儲能建設。",
+                "接續去年COP30「大調適」倡議，「城市如何強化防災體系」、「提升社會調適能力與韌性」，也納入今年氣候峰會議題，不論是今年尼泊爾山洪極端氣候事件或是去年台灣光復鄉洪災，都在提醒全球與台灣，「調適」仍是大家亟需面對的挑戰及課題。"
             ]
         },
         {
             "id":"picture",
-            "title":"現場實況<br class='big_title_br'>圖輯",
+            "title":"現場<br>實況圖輯",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"LivePhotoGallery.png",
             "data":[
                 {
                     "img":"pic1-1.jpg",
@@ -122,6 +113,9 @@
         },
         {
             "id":"intro2",
+            "title":"前言",
+            "titleColor":"#fff",
+            "engImg":"Introduction.png",
             "intro2":[
                 {
                     "label":"COP是什麼?",
@@ -129,23 +123,28 @@
                         {
                             "title":"",
                             "titleColor":"",
-                            "description":"COP是締約方大會(Conference of the Parties)的簡稱。每一個國際公約都有自己的「COP」，其中最有名的就是「聯合國氣候變遷綱要公約(UNFCCC)締約方大會」。"
+                            "description":"COP是締約方大會（Conference of the Parties）的簡稱。每一個國際公約都有自己的「COP」，最廣為人知的COP，是《聯合國氣候變遷綱要公約》（UNFCCC）締約方大會。"
                         },
                         {
                             "title":"",
                             "titleColor":"",
-                            "description":"聯合國氣候變遷綱要公約締約方大會約於每年11月到12月間舉辦，在2022年梵蒂岡批准條約後，共有198個締約方。2025年即將在巴西的貝倫舉行第30次會議(COP30)。"
+                            "description":"聯合國氣候變遷綱要公約締約方大會約於每年11月到12月間舉辦，將於2026年11月9日至20日在土耳其安塔利亞（Antalya）舉行第31次會議（COP31）。"
                         },
                         {
                             "title":"",
                             "titleColor":"",
-                            "description":"此外，由於各締約方領導者都會出席會議，也可以稱其為「氣候高峰會」。"
+                            "description":"特別的是，今年COP31由土耳其擔任主辦國及會議主席，澳洲則負責會前及會議期間的談判主席工作，也凸顯今年氣候談判更需要整合不同立場、凝聚共識。"
                         }
                     ]
                 },
                 {
                     "label":"COP近年討論重點",
                     "content": [
+                                                {
+                            "title":"2025年COP30",
+                            "titleColor":"",
+                            "description":"達成氣候調適資金增加、設立落實加速器與公正轉型機制等成果。然而，因產油國反對，最終決議未納入逐步淘汰化石燃料的強制路徑圖。"
+                        },
                         {
                             "title":"2024年COP29",
                             "titleColor":"",
@@ -155,31 +154,26 @@
                             "title":"2023年COP28",
                             "titleColor":"",
                             "description":"首次做出以化石燃料為主體的共識，能源系統以公正、有序與公平的方式轉型離開(transitioning away)化石燃料，以達成2050淨零目標。"
-                        },
-                        {
-                            "title":"2022年COP27",
-                            "titleColor":"",
-                            "description":"同意設置「損失與損害基金」。設置基金的目的，是提供資金給受嚴重氣候變遷衝擊的發展中國家，協助這些國家強化調適氣候變遷的能力，同時有餘裕推動減緩溫室氣體排放的政策。"
                         }
                     ]
                 },
                 {
-                    "label":"COP 30討論重點",
+                    "label":"COP 31討論重點",
                     "content": [
                         {
-                            "title":"全球氣候行動評估",
+                            "title":"全球電氣化（35x35 目標）",
                             "titleColor":"",
-                            "description":"各國需在 COP30 前提交 2035 年的國家自主貢獻(NDC3.0)。會議將特別檢視主要經濟體和排放大國的進展，並評估全球能否保持在 1.5℃ 減碳路徑上。"
+                            "description":"期望在2035年前，將全球最終能源需求中由電力供應的比例從目前的20%左右提升至 35%，推動交通、建築與工業脫離化石燃料。"
                         },
                         {
-                            "title":"擴大氣候融資",
+                            "title":"廢棄物減量",
                             "titleColor":"",
-                            "description":"氣候資金仍是焦點議題之一，「從巴庫到貝倫，1.3兆美元路線圖」報告預計將於COP30前發布，說明氣候融資如何從3000億美元增加到1.3兆美元。"
+                            "description":"訂出2035年前將全球廢棄物成長速度減半的目標，並將零廢棄與減少甲烷排放列為核心。"
                         },
                         {
-                            "title":"氣候變遷調適",
+                            "title":"韌性城市與節能",
                             "titleColor":"",
-                            "description":"隨著氣溫上升，調適行動更顯重要。COP30 將檢視各國在「全球調適目標」(GGA)的進展、設定新適應性融資目標，並鼓勵提交國家調適計畫。"
+                            "description":"推動建築部門在2035年前將能源消耗強度降低 25%以上，加強城市氣候調適能力。"
                         }
                     ]
                 }
@@ -188,9 +182,10 @@
         {
             "id":"article1",
             "type":1,
-            "title":"直擊！<br class='big_title_br'>COP 30<br class='big_title_br'>會議重點",
+            "title":"直擊!<br>COP 31<br>會議重點",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"Highlights.png",
             "articles":[
                 {
                     "type":"article1",
@@ -302,9 +297,10 @@
         {
             "id":"article5",
             "type":2,
-            "title":"台灣永續行動<br class='big_title_br'>前進 COP30",
+            "title":"COP 31<br>專家觀點",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"ExpertViews.png",
             "articles":[
                 {
                     "type":"article3",
@@ -364,9 +360,10 @@
         {
             "id":"article4",
             "type":3,
-            "title":"會議效應",
+            "title":"COP 31<br>會議背景",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"ContextHistory.png",
             "articles":[
                 {
                     "type":"article2",
@@ -408,9 +405,10 @@
         {
             "id":"article2",
             "type":2,
-            "title":"COP 30<br class='big_title_br'>專家觀點",
+            "title":"關鍵報告解析",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"ReportLnsights.png",
             "articles":[
                 {
                     "type":"article3",
@@ -473,9 +471,10 @@
         {
             "id":"article3",
             "type":3,
-            "title":"會議背景",
+            "title":"會議效應",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"Effects.png",
             "articles":[
                 {
                     "type":"article2",
@@ -575,57 +574,60 @@
         },
         {
             "id":"history",
-            "title":"掌握歷屆<br class='big_title_br'>COP脈動",
+            "title":"掌握歷屆<br>COP脈動",
             "titleColor":"#fff",
             "titleType":2,
+            "engImg":"History.png",
             "intro":[
-                "2024年全球能源需求成長2.2%，幾乎是過往10年平均值的兩倍，主因是電力。",
-                "由於全球高溫創紀錄、工業用電增加、AI和資料中心發展推升用電需求，年增幅達4.3%，遠高於全球GDP 3.2%的成長速度。",
-                "再生能源與核能供應首次合計達總發電量的40%，其中2024年再生能源新增裝置容量達到700GW，連續22年刷新紀錄。中國是再生能源擴張的主力，佔全球新增容量的三分之二。",
-                "全球能源相關碳排放成長0.8%，總量達37.8億噸。"
-            ],
+                "2025年全球用電需求成長約3%，高於整體能源需求，新增用電主要來自建築與工業；電動車及資料中心用電雖成長快速，但目前占全球新增用電的比重仍有限。",
+                "全球再生能源新增容量創新高，總容量約800 GW，其中太陽光電占75%，，風力約占 20%。電池儲能則是成長最快的電力技術，凸顯其整合綠電、提升電力系統彈性的重要性。",
+                "太陽光電首次成為全球新增能源需求的最大來源，貢獻27%，其次為天然氣，占17%。此外，清潔能源部署已減少化石燃料使用與排放增量，但全球排放尚未轉為下降。"            ],
             "chart":[
-                {
-                    "topic":"風電",
-                    "value":8
-                },
-                {
+                                {
                     "topic":"太陽光電",
-                    "value":7
-                },
-                {
-                    "topic":"水力發電",
-                    "value":14
-                },
-                {
-                    "topic":"核能",
-                    "value":9.1
-                },
-                {
-                    "topic":"石油",
-                    "value":2.4
+                    "value":27
                 },
                 {
                     "topic":"天然氣",
-                    "value":21.8
+                    "value":17
+                },
+                {
+                    "topic":"石油",
+                    "value":15
+                },
+                {
+                    "topic":"固態生質能與廢棄物",
+                    "value":13
+                },
+                {
+                    "topic":"風力",
+                    "value":9
                 },
                 {
                     "topic":"煤炭",
-                    "value":34.5
+                    "value":9
+                },
+                {
+                    "topic":"核能",
+                    "value":5
                 },
                 {
                     "topic":"其他再生能源",
-                    "value":3.2
+                    "value":3
+                },
+                {
+                    "topic":"液態生質燃料",
+                    "value":2
                 }
             ],
             "All_COP":[
                 {
-                    "img":"history_img_cop28.png",
-                    "url":"https://esg.businesstoday.com.tw/2023/cop28/"
-                },
-                {
                     "img":"history_img_cop29.png",
                     "url":"https://esg.businesstoday.com.tw/2024/cop29/"
+                },
+                {
+                    "img":"history_img_cop30.png",
+                    "url":"https://esg.businesstoday.com.tw/2025/cop30/"
                 }
                 
             ]
@@ -643,7 +645,7 @@
         "member": "",
         "text1":"今周文化事業(股)公司 / 今周行銷(股)公司 / 今周出版(股)公司 版權所有",
         "text2":"本網站圖文非經本社同意不得刊載",
-        "copyright":"Copyright © 2025 Business Today All rights reserved."
+        "copyright":"Copyright © 2026 Business Today All rights reserved."
     }
 
 }

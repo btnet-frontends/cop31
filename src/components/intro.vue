@@ -5,11 +5,8 @@
     
     import { onMounted } from 'vue'
 
-    
     import Title from './Title.vue'
-
-    // import { getWindowWidth } from '../utils/utils'
-    
+    import introEn from '../assets/image/LiveDirect.png'
 
     defineProps(
         {
@@ -21,34 +18,50 @@
         AOS.init()
     });
 
-
-
 </script>
 
 <template>
     <div class="content_wrap">
+        <!-- 最上方英文標題圖 -->
+        <img :src="introEn" alt="Live & Direct" class="intro_en" />
+
         <Title :infoData="infoData" />
-        <div class="intro_box max-w-[980px] p-10 mx-auto">
-            <div class="intro_text intro_text1 text-xl sm:text-2xl">
-                <p class="text-white">{{infoData.text[0]}}</p>
-            </div>
-            <div class="intro_text intro_text2 text-xl sm:text-2xl">
-                <p class="text-white">{{infoData.text[1]}}</p>
+
+        <div class="intro_box max-w-[980px] px-10 pt-6 pb-10 mx-auto">
+            <div
+                v-for="(item, index) in infoData.text"
+                :key="index"
+                class="intro_text"
+            >
+                <p>{{ item }}</p>
             </div>
         </div>
     </div>
-    <img src="../assets/image/leaf.png" class="right_leaf" data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000" />
-    <img src="../assets/image/leaf.png" class="left_leaf" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" />
 </template>
 
 <style scoped lang="scss">
-    .intro_text{
-        font-weight: 500;
-        margin-bottom: 1.5rem;
-        letter-spacing: 8px;
-        text-align: justify;
-        line-height: 35px;
+    .intro_en{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 420px;
+        padding-top: 1rem;
     }
+
+    .intro_text{
+        font-size: 1.125rem;      // 約 18px,小字
+        font-weight: 400;
+        color: #b8fff6;
+        margin-bottom: 3rem;      // 段落之間空一大段
+        letter-spacing: 3px;
+        text-align: justify;
+        line-height: 2;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
     .right_leaf{
         position: absolute;
         display: block;
@@ -68,21 +81,22 @@
         width: 15%;
     }
 
-
     @media screen and (max-width: 1366px) {
         .left_leaf{
             display: none;
         }
     }
     @media screen and (max-width: 1024px) {
-        .intro_text{
-            margin-bottom: 1.2rem;
-            letter-spacing: 2px;
+        .intro_en{
+            max-width: 300px;
         }
-
+        .intro_text{
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            letter-spacing: 1px;
+        }
         .right_leaf{
             display: none;
         }
-        
     }
 </style>

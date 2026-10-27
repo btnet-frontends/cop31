@@ -7,6 +7,10 @@ const props = defineProps({
         type: Object,
         default: null,
     },
+    transparent: {
+        type: Boolean,
+        default: false,
+    },
 });
 
 const resolvedCard = computed(() => {
@@ -42,8 +46,8 @@ function resolveImage(image) {
 </script>
 
 <template>
-    <a :class="['card',resolvedCard.type==='article1' ? 'type1' : 'type2']" :href="resolvedCard.url">
-        <div v-if="resolvedCard.image" :class="['card__image',resolvedCard.type==='article1' ? 'type1' : 'type2']">
+    <a :class="['card', resolvedCard.type==='article1' ? 'type1' : 'type2', { 'is-transparent': transparent }]" :href="resolvedCard.url">
+        <div v-if="resolvedCard.image" :class="['card__image', resolvedCard.type==='article1' ? 'type1' : 'type2']">
             <img :src="resolvedCard.image" :alt="resolvedCard.alt" loading="lazy" />
         </div>
         <div class="card__body">
@@ -70,11 +74,14 @@ function resolveImage(image) {
     height: 100%;
     border-radius: 24px;
     overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     padding: 15px;
 
     &:hover {
         transform: translateY(-4px);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
 
         .card__image{
             img{
@@ -83,12 +90,28 @@ function resolveImage(image) {
             }
         }
     }
-}
 
-.card.type2{
-    background: #ffffff;
-    box-shadow: 0 20px 40px rgba(0, 115, 140, 0.08);
-    border: 4px solid #b0db61;
+    &.is-transparent {
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+        border-radius: 0;
+
+        &:hover {
+            transform: none;
+            box-shadow: none;
+
+            .card__image {
+                img {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .card__body {
+            padding: 16px 2px 0;
+        }
+    }
 }
 
 .card__image {
@@ -97,17 +120,13 @@ function resolveImage(image) {
     aspect-ratio: 3 / 2;
     background: #f0f4f5;
     overflow: hidden;
-    border-radius: 30px;
+    border-radius: 20px;
 
     img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-}
-
-.card__image.type1{
-    border: 4px solid #b0db61;
 }
 
 
@@ -136,7 +155,7 @@ function resolveImage(image) {
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
-    color: #00738c;
+    color: #239dca;
 }
 
 .card__description {

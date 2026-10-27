@@ -37,32 +37,34 @@ const navigationOptions = computed(() => ({
 
 const breakpoints = {
     0: { slidesPerView: 1, spaceBetween: 16 },
-    768: { slidesPerView: 2, spaceBetween: 24 },
-    1024: { slidesPerView: 3, spaceBetween: 32 },
+    768: { slidesPerView: 2, spaceBetween: 20 },
+    1024: { slidesPerView: 3, spaceBetween: 24 },
 };
 </script>
 
 <template>
     <div class="content_wrap">
         <Title :infoData="infoData" />
-        <div class="article2_box max-w-[1366px] p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+        <div class="article2_box max-w-[1366px] px-3 py-8 sm:px-6 md:px-8 lg:p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
            <div v-if="articles.length" class="article-slider">
-                <Swiper
-                    class="article-swiper"
-                    :modules="modules"
-                    :navigation="navigationOptions"
-                    :breakpoints="breakpoints"
-                    :spaceBetween="16"
-                    :slidesPerView="1"
-                    :loop="true"
-                >
-                    <SwiperSlide
-                        v-for="(article, index) in articles"
-                        :key="article.id ?? `${article.title ?? 'article'}-${index}`"
+                <div class="unified-slider-box">
+                    <Swiper
+                        class="article-swiper"
+                        :modules="modules"
+                        :navigation="navigationOptions"
+                        :breakpoints="breakpoints"
+                        :spaceBetween="24"
+                        :slidesPerView="1"
+                        :loop="true"
                     >
-                        <Card :cardData="article" />
-                    </SwiperSlide>
-                </Swiper>
+                        <SwiperSlide
+                            v-for="(article, index) in articles"
+                            :key="article.id ?? `${article.title ?? 'article'}-${index}`"
+                        >
+                            <Card :cardData="article" :transparent="true" />
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
                 <div class="slider-nav z-20">
                     <button
                         type="button"
@@ -94,39 +96,67 @@ const breakpoints = {
     .article-slider {
         position: relative;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .unified-slider-box {
+        width: calc(100% - 7.5rem);
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 28px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        padding: 30px 24px 34px;
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+
+        :deep(.card) {
+            background: transparent;
+            box-shadow: none;
+            padding: 0;
+            border-radius: 0;
+
+            &:hover {
+                transform: none;
+                box-shadow: none;
+
+                .card__image img {
+                    transform: scale(1.05);
+                }
+            }
+
+            .card__body {
+                padding: 16px 2px 0;
+            }
+        }
     }
 
     .article-swiper {
-        width: 85%;
+        width: 100%;
         height: 100%;
-        padding-bottom: 2.5rem;
+        padding-bottom: 0;
     }
 
     .swiper-slide {
         display: flex;
         justify-content: center;
         align-items: stretch;
+        height: auto;
     }
 
-    .more_btn{
-        border-radius: 50px;
-        box-shadow: 0 20px 40px rgba(0, 115, 140, 0.2);
+    .more_btn {
+        filter: drop-shadow(0 12px 24px rgba(0, 115, 140, 0.25));
     }
 
-    .more_btn:hover{
+    .more_btn:hover {
         transition: .3s;
-        transform: scale(1.1);
-    }
-
-    @media screen and (max-width: 1200px) {
-        
-    }
-    @media screen and (max-width: 1024px) {
-        
-    }
-
-    @media screen and (max-width: 640px) {
-        
+        transform: scale(1.05);
+        filter: drop-shadow(0 16px 32px rgba(0, 115, 140, 0.35));
     }
 
     .slider-nav {
@@ -136,7 +166,8 @@ const breakpoints = {
         justify-content: space-between;
         align-items: center;
         pointer-events: none;
-        padding: 0 2rem;
+        padding: 0 0.75rem;
+        z-index: 20;
     }
 
     .slider-nav-button {
@@ -147,11 +178,11 @@ const breakpoints = {
         width: 3rem;
         height: 3rem;
         border-radius: 9999px;
-        background-color: #b0db61;
+        background-color: #ffffff;
         border: none;
         cursor: pointer;
-        transition: background-color 0.2s ease, transform 0.2s ease;
-        box-shadow: 0 20px 40px rgba(0, 115, 140, 0.2);
+        transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 12px 28px rgba(0, 115, 140, 0.25);
     }
 
     .slider-nav-button::before {
@@ -195,14 +226,58 @@ const breakpoints = {
     }
 
     @media screen and (max-width: 1024px) {
+        .unified-slider-box {
+            width: calc(100% - 6.5rem);
+            padding: 24px 20px 28px;
+            border-radius: 24px;
+        }
+
         .slider-nav {
-            padding: 0 1.5rem;
+            padding: 0 0.5rem;
         }
     }
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 768px) {
+        .unified-slider-box {
+            width: calc(100% - 4.5rem);
+            padding: 20px 16px 24px;
+            border-radius: 20px;
+        }
+
+        .slider-nav {
+            padding: 0 0.25rem;
+        }
+
+        .slider-nav-button {
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+
+        .slider-nav-button::before {
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .unified-slider-box {
+            width: calc(100% - 3.6rem);
+            padding: 16px 12px 20px;
+            border-radius: 16px;
+        }
+
         .slider-nav {
             padding: 0 0rem;
+        }
+
+        .slider-nav-button {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .slider-nav-button::before {
+            width: 0.45rem;
+            height: 0.45rem;
         }
     }
 </style>

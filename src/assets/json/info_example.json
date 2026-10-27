@@ -20,7 +20,7 @@
         },
         {
             "tag":false,
-            "tagName":"會議背景",
+            "tagName":"COP 31 會議背景",
             "tagUrl":"#article3",
             "tagClassName":"menu_article3"
         },
@@ -41,7 +41,7 @@
         {
             "id":"kv",
             "title":"現場直擊<br class='big_title_br'>專題報導",
-            "titleColor":"#008d6a",
+            "titleColor":"#FFFFFF",
             "subtitle":"《巴黎協定》10年的全球氣候大考，聚焦NDC3.0、氣候融資與氣候調適",
             "subtitleColor":"#2f4f4f",
             "label":"直擊巴西貝倫現場",
@@ -184,7 +184,7 @@
         {
             "id":"article3",
             "type":3,
-            "title":"會議背景",
+            "title":"COP 31 會議背景",
             "titleColor":"#fff",
             "titleType":2,
             "articles":[
@@ -229,7 +229,7 @@
         },
         {
             "id":"history",
-            "title":"掌握歷屆<br class='big_title_br'>COP脈動",
+            "title":"掌握歷屆<br>COP脈動",
             "titleColor":"#fff",
             "titleType":2,
             "intro":[
@@ -274,12 +274,12 @@
             ],
             "All_COP":[
                 {
-                    "img":"history_img_cop28.png",
-                    "url":"https://esg.businesstoday.com.tw/2023/cop28/"
-                },
-                {
                     "img":"history_img_cop29.png",
                     "url":"https://esg.businesstoday.com.tw/2024/cop29/"
+                },
+                {
+                    "img":"history_img_cop30.png",
+                    "url":"https://esg.businesstoday.com.tw/2025/cop30/"
                 }
                 
             ]

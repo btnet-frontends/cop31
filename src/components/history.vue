@@ -141,17 +141,17 @@
                     <p>{{ infoData.intro[3] }}</p>
                 </div>
                 <div class="chart_area w-full lg:w-[50%] bg-white rounded-4xl p-5">
-                    <h2 class="chart_word_title mt-2 mb-5 mx-auto text-2xl">2024年全球電力結構</h2>
+                    <h2 class="chart_word_title mt-2 mb-5 mx-auto text-2xl">2025年新增能源需求的來源</h2>
                     <div ref="chartRef" class="history_chart"></div>
-                    <p class="chart_word2 text-sm mt-5 text-right">資料來源：IEA 2025全球能源報告</p>
+                    <p class="chart_word2 text-sm mt-5 text-right">資料來源：IEA 2026 全球能源回顧</p>
                 </div>
             </div>
-            <div class="cop_history mt-15 flex flex-col gap-10 lg:flex-row">
-                <a class="item" :href="infoData.All_COP[0].url">
-                    <img :src="getImgUrl(infoData.All_COP[0].img)" alt="history_cop">
+            <div class="cop_history mt-15 flex flex-col gap-10 lg:flex-row w-full">
+                <a class="item flex-1 w-full" :href="infoData.All_COP[0].url">
+                    <img class="w-full h-auto object-cover" :src="getImgUrl(infoData.All_COP[0].img)" alt="history_cop">
                 </a> 
-                <a class="item" :href="infoData.All_COP[1].url">
-                    <img :src="getImgUrl(infoData.All_COP[1].img)" alt="history_cop">
+                <a class="item flex-1 w-full" :href="infoData.All_COP[1].url">
+                    <img class="w-full h-auto object-cover" :src="getImgUrl(infoData.All_COP[1].img)" alt="history_cop">
                 </a>
             </div>
         </div>
@@ -163,15 +163,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .cop_history .item {
+        flex: 1 1 0;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        border: 4px solid #b0db61;
         border-radius: 35px;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
     }
 
     .cop_history .item:hover{
@@ -179,16 +188,14 @@
     }
 
     .history_info{
-        color: #2f4f4f;
+        color: #b8fff6;
         letter-spacing: 3px;
     }
     .history_chart {
         width: 100%;
         height: 20vw;
     }
-    .chart_area{
-        border: 4px solid #b0db61;
-    }
+
     .chart_word_title{
         color: #00738c;
         width: fit-content;

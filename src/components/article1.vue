@@ -89,39 +89,10 @@ const breakpoints = {
         </div>
     </div>
 
-    <div class="frame03 frame03-1 z-10"></div>
-    <div class="frame03 frame03-2 z-10"></div>
 </template>
 
 <style scoped lang="scss">
-    .frame03{
-        position: absolute;
-        display: block;
-        width: 250px;
-        width: 18%;
-        height: 100%;
-        top: 0;
-    }
 
-    .frame03-1{
-        left: 0;
-        background: url("../assets/image/frame03.png") left center repeat-y;
-        background-size: contain;
-        -moz-transform:scaleY(-1);
-        -webkit-transform:scaleY(-1);
-        -o-transform:scaleY(-1);
-        transform:scaleY(-1);
-    }
-
-    .frame03-2{
-        right: 0;
-        background: url("../assets/image/frame03.png") right center repeat-y;
-        background-size: contain;
-        -moz-transform:scaleX(-1);
-        -webkit-transform:scaleX(-1);
-        -o-transform:scaleX(-1);
-        transform:scaleX(-1);
-    }
 
     .article-slider {
         position: relative;
@@ -141,22 +112,20 @@ const breakpoints = {
     }
 
     .more_btn{
-        border-radius: 50px;
-        box-shadow: 0 20px 40px rgba(0, 115, 140, 0.2);
+        filter: drop-shadow(0 12px 24px rgba(0, 115, 140, 0.25));
     }
 
     .more_btn:hover{
         transition: .3s;
         transform: scale(1.1);
+        filter: drop-shadow(0 16px 32px rgba(0, 115, 140, 0.35));
     }
 
     @media screen and (max-width: 1200px) {
         
     }
     @media screen and (max-width: 1024px) {
-        .frame03{
-            display: none;
-        }
+        
     }
 
     @media screen and (max-width: 640px) {
@@ -181,7 +150,7 @@ const breakpoints = {
         width: 3rem;
         height: 3rem;
         border-radius: 9999px;
-        background-color: #b0db61;
+        background-color: #ffffff;
         border: none;
         cursor: pointer;
         transition: background-color 0.2s ease, transform 0.2s ease;

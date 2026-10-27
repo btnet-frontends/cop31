@@ -242,7 +242,6 @@ function resolveImage(imagePath) {
     
     .picture_box{
         border-radius: 30px;
-        border: 4px solid #B0DB61;
     }
 
     .swiper-container-wrapper {
@@ -265,6 +264,8 @@ function resolveImage(imagePath) {
         height: 45vw;
         min-height: 120px;
         max-height: 620px;
+        border-radius: 20px;
+        overflow: hidden;
 
         @media (min-width: $breakpoint) {
             width: 80%;
@@ -281,6 +282,7 @@ function resolveImage(imagePath) {
         :deep(.swiper-slide){
             position: relative;
             overflow: hidden;
+            border-radius: 20px;
             text-align: center;
             background-size: cover;
             background-position: center;
@@ -387,10 +389,17 @@ function resolveImage(imagePath) {
             padding: 0.5rem;
             text-align: center;
             font-weight: 600;
+            border-radius: 14px;
+            overflow: hidden;
+            transition: opacity 0.3s ease, transform 0.3s ease;
 
             @media (min-width: $breakpoint) {
                 flex-direction: column;
                 width: 100%;
+            }
+
+            &:hover {
+                opacity: 0.95;
             }
         }
 
