@@ -45,8 +45,14 @@ const breakpoints = {
 <template>
     <div class="content_wrap z-30">
         <Title :infoData="props.infoData" />
-        <div class="article1_box max-w-[1366px] p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-            <div v-if="articles.length" class="article-slider">
+        <div class="article1_box max-w-[1366px] px-4 py-8 sm:px-6 md:px-8 lg:p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+            <div v-if="articles.length === 1" class="single-article-wrap">
+                <div class="single-card-box">
+                    <Card :cardData="articles[0]" />
+                </div>
+            </div>
+
+            <div v-else-if="articles.length > 1" class="article-slider">
                 <Swiper
                     class="article-swiper"
                     :modules="modules"
@@ -54,7 +60,8 @@ const breakpoints = {
                     :breakpoints="breakpoints"
                     :spaceBetween="16"
                     :slidesPerView="1"
-                    :loop="true"
+                    :loop="articles.length > 3"
+                    :centerInsufficientSlides="true"
                 >
                     <SwiperSlide
                         v-for="(article, index) in articles"
@@ -63,7 +70,7 @@ const breakpoints = {
                         <Card :cardData="article" />
                     </SwiperSlide>
                 </Swiper>
-                <div class="slider-nav z-20">
+                <div v-if="articles.length > 3" class="slider-nav z-20">
                     <button
                         type="button"
                         :class="['slider-nav-button', `${sliderNamespace}-nav-prev`]"
@@ -93,6 +100,22 @@ const breakpoints = {
 
 <style scoped lang="scss">
 
+    .single-article-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2.5rem;
+    }
+
+    .single-card-box {
+        width: 100%;
+        max-width: 380px;
+
+        :deep(.card) {
+            width: 100%;
+        }
+    }
 
     .article-slider {
         position: relative;

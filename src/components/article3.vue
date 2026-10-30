@@ -91,7 +91,6 @@ const breakpoints = {
         </div>
     </div>
 
-    <!-- <img src="../assets/image/grass03.png" class="absolute w-full bottom-0 z-20" alt="grass02" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-offset="0"> -->
 </template>
 
 <style scoped lang="scss">

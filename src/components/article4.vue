@@ -47,7 +47,7 @@ const breakpoints = {
         <Title :infoData="infoData" />
         <div class="article2_box max-w-[1366px] px-3 py-8 sm:px-6 md:px-8 lg:p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
            <div v-if="articles.length" class="article-slider">
-                <div class="unified-slider-box">
+                <div class="unified-slider-box" :class="{ 'no-nav': articles.length <= 3 }">
                     <Swiper
                         class="article-swiper"
                         :modules="modules"
@@ -55,7 +55,7 @@ const breakpoints = {
                         :breakpoints="breakpoints"
                         :spaceBetween="24"
                         :slidesPerView="1"
-                        :loop="true"
+                        :loop="articles.length > 3"
                     >
                         <SwiperSlide
                             v-for="(article, index) in articles"
@@ -65,7 +65,7 @@ const breakpoints = {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div class="slider-nav z-20">
+                <div v-if="articles.length > 3" class="slider-nav z-20">
                     <button
                         type="button"
                         :class="['slider-nav-button', `${sliderNamespace}-nav-prev`]"
@@ -114,6 +114,10 @@ const breakpoints = {
         position: relative;
         z-index: 10;
         overflow: hidden;
+
+        &.no-nav {
+            width: 100%;
+        }
 
         :deep(.card) {
             background: transparent;
@@ -230,6 +234,10 @@ const breakpoints = {
             width: calc(100% - 6.5rem);
             padding: 24px 20px 28px;
             border-radius: 24px;
+
+            &.no-nav {
+                width: 100%;
+            }
         }
 
         .slider-nav {
@@ -242,6 +250,10 @@ const breakpoints = {
             width: calc(100% - 4.5rem);
             padding: 20px 16px 24px;
             border-radius: 20px;
+
+            &.no-nav {
+                width: 100%;
+            }
         }
 
         .slider-nav {
@@ -264,6 +276,10 @@ const breakpoints = {
             width: calc(100% - 3.6rem);
             padding: 16px 12px 20px;
             border-radius: 16px;
+
+            &.no-nav {
+                width: 100%;
+            }
         }
 
         .slider-nav {
