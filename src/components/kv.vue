@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
     import AOS from 'aos'
     import 'aos/dist/aos.css'
 
@@ -96,7 +96,7 @@
         display: block;
         width: 100%;
         height: calc(100vh - 80px);
-        background: url('../assets/image/bg.jpg') fixed center center no-repeat;
+        background: url('../assets/image/bg.jpg') center center no-repeat;
         background-size: cover;
         margin-top: 80px;
     }

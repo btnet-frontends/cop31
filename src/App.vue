@@ -1,7 +1,7 @@
 <script setup>
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 
 import Header from './components/header.vue'
 import Footer from './components/footer.vue'
@@ -30,6 +30,12 @@ const popupItem = ref(null)
 const isPopupVisible = ref(false)
 const kvReady = ref(false)           // 影片結束後設為 true，觸發 KV 入場動畫
 
+// 暫時隱藏已註解區塊在 Header 的選單項目
+const displayMenu = computed(() => {
+  const hiddenUrls = ['#article5', '#article3'];
+  return (infoData.menu || []).filter(item => !hiddenUrls.includes(item.tagUrl));
+});
+
 const onSplashEnd = () => {
   kvReady.value = true
 }
@@ -57,41 +63,47 @@ onMounted(() => {
 
 <template>
     <VideoSplash @ended="onSplashEnd" />
-    <Header :menu="infoData.menu" />
+    <Header :menu="displayMenu" />
     <Gototop class="z-99" />
     <section id="kv" class="relative w-full overflow-hidden">
       <Kv :infoData="infoData.content[0]" :kvReady="kvReady" />
     </section>
-    <section id="kv-picture" class="relative w-full">
+    <!-- 直擊土耳其安塔利亞現場區塊 -->
+    <!-- <section id="kv-picture" class="relative w-full">
       <KvPicture :infoData="infoData.content[0]" />
-    </section>
+    </section> -->
     <section id="intro" class="relative block w-full z-10">
       <Intro :infoData="infoData.content[1]" />
     </section>
-    <section id="picture" class="relative z-10 w-full px-5">
+    <!-- 現場實況圖輯區塊 -->
+    <!-- <section id="picture" class="relative z-10 w-full px-5">
       <Picture
         :infoData="infoData.content[2]"
         @open-popup="handlePopupOpen"
       />
-    </section>
+    </section> -->
     <section id="intro2" class="relative z-0 w-full px-5 overflow-hidden">    
       <Intro2 :infoData="infoData.content[3]" />
     </section>
     <section id="article1" class="relative w-full overflow-hidden">
       <Article1 :infoData="infoData.content[4]" />
     </section>
-    <section id="article5" class="relative w-full overflow-hidden">
+    <!-- COP 31專家觀點區塊 -->
+    <!-- <section id="article5" class="relative w-full overflow-hidden">
       <article5 :infoData="infoData.content[5]" />
-    </section>
-    <section id="article4" class="relative w-full overflow-hidden">
-      <Article4 :infoData="infoData.content[6]" />
-    </section>
+    </section> -->
+    <!-- 關鍵報告解析區塊 -->
     <section id="article2" class="relative w-full overflow-hidden">
       <Article2 :infoData="infoData.content[7]" />
     </section>
-    <section id="article3" class="relative w-full overflow-hidden">
-      <Article3 :infoData="infoData.content[8]" />
+    <!-- COP 31會議背景區塊 -->
+    <section id="article4" class="relative w-full overflow-hidden">
+      <Article4 :infoData="infoData.content[6]" />
     </section>
+    <!-- 會議效應區塊 -->
+    <!-- <section id="article3" class="relative w-full overflow-hidden">
+      <Article3 :infoData="infoData.content[8]" />
+    </section> -->
     <section id="picture2" class="relative z-10 w-full overflow-hidden" style="display:none">
       <Picture2
         :infoData="infoData.content[9]"
@@ -144,34 +156,28 @@ onMounted(() => {
 }
 
 #kv-picture{
-    background: url('./assets/image/blue_bg.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 #intro{
     padding-top: 90px;
-    background: url('./assets/image/blue_bg.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 #picture{
-    background: url('./assets/image/1_gb.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/1_gb.jpg') center center / cover no-repeat;
 }
 
 #intro2{
-    background: url('./assets/image/1_gb.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/1_gb.jpg') center center / cover no-repeat;
 }
 
 #article1{
-    background: url('./assets/image/blue_bg.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 #article5{
-    background: url('./assets/image/blue_bg.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 #article4,
@@ -180,7 +186,6 @@ onMounted(() => {
     background-image: url('./assets/image/2_bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-color: #4382a8;
 }
@@ -192,8 +197,7 @@ onMounted(() => {
 }
 
 #history{
-    background: url('./assets/image/blue_bg.jpg') center center fixed;
-    background-size: cover;
+    background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 #company{
@@ -201,8 +205,7 @@ onMounted(() => {
 }
 
 #footer{
-  background: url('./assets/image/blue_bg.jpg') center center fixed;
-  background-size: cover;
+  background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
