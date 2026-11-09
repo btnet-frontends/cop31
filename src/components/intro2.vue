@@ -169,7 +169,6 @@ const goToSlide = (index) => {
         }
     }
 
-    // 內文文字顏色 4d4d4d
     .description {
         color: #4d4d4d;
         letter-spacing: 0.5px;

@@ -32,7 +32,7 @@ const kvReady = ref(false)           // 影片結束後設為 true，觸發 KV �
 
 // 暫時隱藏已註解區塊在 Header 的選單項目
 const displayMenu = computed(() => {
-  const hiddenUrls = ['#article5', '#article3'];
+  const hiddenUrls = ['#article3'];
   return (infoData.menu || []).filter(item => !hiddenUrls.includes(item.tagUrl));
 });
 
@@ -89,9 +89,9 @@ onMounted(() => {
       <Article1 :infoData="infoData.content[4]" />
     </section>
     <!-- COP 31專家觀點區塊 -->
-    <!-- <section id="article5" class="relative w-full overflow-hidden">
+    <section id="article5" class="relative w-full overflow-hidden">
       <article5 :infoData="infoData.content[5]" />
-    </section> -->
+    </section>
     <!-- 關鍵報告解析區塊 -->
     <section id="article2" class="relative w-full overflow-hidden">
       <Article2 :infoData="infoData.content[7]" />

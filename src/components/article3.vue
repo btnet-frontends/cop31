@@ -55,7 +55,7 @@ const breakpoints = {
                         :breakpoints="breakpoints"
                         :spaceBetween="24"
                         :slidesPerView="1"
-                        :loop="true"
+                        :loop="articles.length > 3"
                     >
                         <SwiperSlide
                             v-for="(article, index) in articles"
@@ -65,7 +65,7 @@ const breakpoints = {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div class="slider-nav z-20">
+                <div v-if="articles.length > 3" class="slider-nav z-20">
                     <button
                         type="button"
                         :class="['slider-nav-button', `${sliderNamespace}-nav-prev`]"

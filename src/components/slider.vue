@@ -95,7 +95,7 @@
             class="mySwiper"
             :modules="modules"
             :navigation="navigationOptions"
-            loop
+            :loop="slides.length > 1"
         >
             <swiper-slide
                 v-for="(slide, index) in slides"
@@ -140,7 +140,7 @@
                 </div>
             </swiper-slide>
         </swiper>
-        <div class="slider-nav z-10">
+        <div v-if="slides.length > 1" class="slider-nav z-10">
             <button
                 type="button"
                 :class="['slider-nav-button', `${sliderId}-nav-prev`, 'slider-nav-prev']"
