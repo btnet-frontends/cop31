@@ -26,6 +26,17 @@ const articles = computed(() => {
     return Array.isArray(list) ? list : [];
 });
 
+// 當文章少於 6 篇時，倍增以確保在 loop 模式下（含電腦版 3 欄、響應式 1~2 欄）皆能順暢無縫循環
+const loopArticles = computed(() => {
+    const list = articles.value;
+    if (list.length <= 1) return list;
+    let result = [...list];
+    while (result.length < 6) {
+        result = result.concat(list);
+    }
+    return result;
+});
+
 const sliderNamespace = computed(() => props.infoData?.id ?? 'article-slider');
 
 const modules = [Navigation];
@@ -60,17 +71,16 @@ const breakpoints = {
                     :breakpoints="breakpoints"
                     :spaceBetween="16"
                     :slidesPerView="1"
-                    :loop="articles.length > 3"
-                    :centerInsufficientSlides="true"
+                    :loop="true"
                 >
                     <SwiperSlide
-                        v-for="(article, index) in articles"
-                        :key="article.id ?? `${article.title ?? 'article'}-${index}`"
+                        v-for="(article, index) in loopArticles"
+                        :key="`${article.title ?? 'article'}-${index}`"
                     >
                         <Card :cardData="article" />
                     </SwiperSlide>
                 </Swiper>
-                <div v-if="articles.length > 3" class="slider-nav z-20">
+                <div v-if="articles.length > 1" class="slider-nav z-20">
                     <button
                         type="button"
                         :class="['slider-nav-button', `${sliderNamespace}-nav-prev`]"
@@ -88,7 +98,7 @@ const breakpoints = {
                 </div>
             </div>
             <a
-                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP30直擊"
+                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP31直擊"
                 class="more_btn block w-[80%] mt-10 ml-auto mr-auto overflow-hidden sm:w-[20rem]"
             >
                 <img class="more_btn_img mx-auto" src="../assets/image/more_btn.png" alt="more_btn">
@@ -144,25 +154,17 @@ const breakpoints = {
         filter: drop-shadow(0 16px 32px rgba(0, 115, 140, 0.35));
     }
 
-    @media screen and (max-width: 1200px) {
-        
-    }
-    @media screen and (max-width: 1024px) {
-        
-    }
-
-    @media screen and (max-width: 640px) {
-        
-    }
-
     .slider-nav {
         position: absolute;
-        inset: 0;
+        top: 0;
+        bottom: 2.5rem;
+        left: 0;
+        right: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         pointer-events: none;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
     }
 
     .slider-nav-button {
@@ -176,8 +178,8 @@ const breakpoints = {
         background-color: #ffffff;
         border: none;
         cursor: pointer;
-        transition: background-color 0.2s ease, transform 0.2s ease;
-        box-shadow: 0 20px 40px rgba(0, 115, 140, 0.2);
+        transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 12px 28px rgba(0, 115, 140, 0.25);
     }
 
     .slider-nav-button::before {
@@ -221,14 +223,54 @@ const breakpoints = {
     }
 
     @media screen and (max-width: 1024px) {
+        .article-swiper {
+            width: calc(100% - 6rem);
+        }
+
         .slider-nav {
-            padding: 0 1.5rem;
+            padding: 0 0.25rem;
         }
     }
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 768px) {
+        .article-swiper {
+            width: calc(100% - 4.5rem);
+            padding-bottom: 1.5rem;
+        }
+
+        .slider-nav {
+            bottom: 1.5rem;
+            padding: 0 0.15rem;
+        }
+
+        .slider-nav-button {
+            width: 2.25rem;
+            height: 2.25rem;
+
+            &::before {
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .article-swiper {
+            width: calc(100% - 3.8rem);
+        }
+
         .slider-nav {
             padding: 0 0rem;
+        }
+
+        .slider-nav-button {
+            width: 2rem;
+            height: 2rem;
+
+            &::before {
+                width: 0.45rem;
+                height: 0.45rem;
+            }
         }
     }
 </style>

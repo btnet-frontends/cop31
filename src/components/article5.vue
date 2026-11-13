@@ -27,7 +27,7 @@
                 <Slider :cardData="infoData.articles" />
            </div>
            <a
-                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP30台灣"
+                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP31分析"
                 class="more_btn block w-[80%] mt-10 ml-auto mr-auto overflow-hidden sm:w-[20rem]"
             >
                 <img class="more_btn_img mx-auto" src="../assets/image/more_btn.png" alt="more_btn">
