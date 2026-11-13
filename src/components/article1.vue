@@ -26,7 +26,6 @@ const articles = computed(() => {
     return Array.isArray(list) ? list : [];
 });
 
-// 當文章少於 6 篇時，倍增以確保在 loop 模式下（含電腦版 3 欄、響應式 1~2 欄）皆能順暢無縫循環
 const loopArticles = computed(() => {
     const list = articles.value;
     if (list.length <= 1) return list;
