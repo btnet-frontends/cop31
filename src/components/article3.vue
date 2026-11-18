@@ -46,7 +46,19 @@ const breakpoints = {
     <div class="content_wrap z-30">
         <Title :infoData="props.infoData" />
         <div class="article1_box max-w-[1366px] px-3 py-8 sm:px-6 md:px-8 lg:p-10 mx-auto" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-            <div v-if="articles.length" class="article-slider">
+            <div v-if="articles.length === 1" class="single-article-wrap">
+                <div class="single-card-box">
+                    <Card :cardData="articles[0]" />
+                </div>
+            </div>
+
+            <div v-else-if="articles.length === 2" class="double-article-wrap">
+                <div v-for="(article, index) in articles" :key="index" class="single-card-box">
+                    <Card :cardData="article" />
+                </div>
+            </div>
+
+            <div v-else-if="articles.length >= 3" class="article-slider">
                 <div class="unified-slider-box">
                     <Swiper
                         class="article-swiper"
@@ -83,7 +95,7 @@ const breakpoints = {
                 </div>
             </div>
             <a
-                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP31背景"
+                href="https://esg.businesstoday.com.tw/group_search/article?keywords=COP31效應"
                 class="more_btn block w-[80%] mt-10 ml-auto mr-auto overflow-hidden sm:w-[20rem]"
             >
                 <img class="more_btn_img mx-auto" src="../assets/image/more_btn.png" alt="more_btn">
@@ -94,6 +106,33 @@ const breakpoints = {
 </template>
 
 <style scoped lang="scss">
+
+    .single-article-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2.5rem;
+    }
+
+    .double-article-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 2rem;
+        padding-bottom: 2.5rem;
+        flex-wrap: wrap;
+    }
+
+    .single-card-box {
+        width: 100%;
+        max-width: 380px;
+
+        :deep(.card) {
+            width: 100%;
+        }
+    }
 
     .article-slider {
         position: relative;

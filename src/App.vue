@@ -32,7 +32,7 @@ const kvReady = ref(false)           // 影片結束後設為 true，觸發 KV �
 
 // 暫時隱藏已註解區塊在 Header 的選單項目
 const displayMenu = computed(() => {
-  const hiddenUrls = ['#article3'];
+  const hiddenUrls = [];
   return (infoData.menu || []).filter(item => !hiddenUrls.includes(item.tagUrl));
 });
 
@@ -101,9 +101,9 @@ onMounted(() => {
       <Article4 :infoData="infoData.content[6]" />
     </section>
     <!-- 會議效應區塊 -->
-    <!-- <section id="article3" class="relative w-full overflow-hidden">
+    <section id="article3" class="relative w-full overflow-hidden">
       <Article3 :infoData="infoData.content[8]" />
-    </section> -->
+    </section>
     <section id="picture2" class="relative z-10 w-full overflow-hidden" style="display:none">
       <Picture2
         :infoData="infoData.content[9]"
