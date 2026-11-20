@@ -92,18 +92,28 @@ onMounted(() => {
     <section id="article5" class="relative w-full overflow-hidden">
       <article5 :infoData="infoData.content[5]" />
     </section>
-    <!-- 關鍵報告解析區塊 -->
-    <section id="article2" class="relative w-full overflow-hidden">
-      <Article2 :infoData="infoData.content[7]" />
-    </section>
-    <!-- COP 31會議背景區塊 -->
-    <section id="article4" class="relative w-full overflow-hidden">
-      <Article4 :infoData="infoData.content[6]" />
-    </section>
-    <!-- 會議效應區塊 -->
-    <section id="article3" class="relative w-full overflow-hidden">
-      <Article3 :infoData="infoData.content[8]" />
-    </section>
+    <!-- 會議效應、關鍵報告解析、COP 31會議背景 共用固定底圖區塊 -->
+    <div class="articles-shared-bg">
+      <div class="shared-bg-track">
+        <div class="shared-bg-sticky">
+          <div class="shared-bg-img"></div>
+        </div>
+      </div>
+      <div class="articles-content-wrap">
+        <!-- 會議效應區塊 -->
+        <section id="article3" class="relative w-full">
+          <Article3 :infoData="infoData.content[8]" />
+        </section>
+        <!-- 關鍵報告解析區塊 -->
+        <section id="article2" class="relative w-full">
+          <Article2 :infoData="infoData.content[7]" />
+        </section>
+        <!-- COP 31會議背景區塊 -->
+        <section id="article4" class="relative w-full">
+          <Article4 :infoData="infoData.content[6]" />
+        </section>
+      </div>
+    </div>
     <section id="picture2" class="relative z-10 w-full overflow-hidden" style="display:none">
       <Picture2
         :infoData="infoData.content[9]"
@@ -180,14 +190,53 @@ onMounted(() => {
     background: url('./assets/image/blue_bg.jpg') center center / cover no-repeat;
 }
 
+.articles-shared-bg {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  position: relative;
+  width: 100%;
+  background-color: #4382a8;
+}
+
+.shared-bg-track {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.shared-bg-sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.shared-bg-img {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/image/2_bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4382a8;
+}
+
+.articles-content-wrap {
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
 #article4,
 #article2,
-#article3{
-    background-image: url('./assets/image/2_bg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #4382a8;
+#article3 {
+  background: transparent;
 }
 
 #picture2{

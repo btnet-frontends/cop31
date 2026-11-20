@@ -115,7 +115,6 @@ const goToSlide = (index) => {
 </template>
 
 <style scoped lang="scss">
-    // 白色底帶有 90% 透明度
     .intro2_card_container {
         background: rgba(255, 255, 255, 0.9);
         border-radius: 28px;
@@ -127,7 +126,6 @@ const goToSlide = (index) => {
         white-space: nowrap;
     }
 
-    // 選項未被選時：字色 1e5abc，背景透明
     .tab_btn {
         color: #1e5abc;
         border-radius: 9999px;
@@ -140,7 +138,6 @@ const goToSlide = (index) => {
             opacity: 0.85;
         }
 
-        // 被選時：由左到右 0077c8 到 40e0d0，白字
         &.active {
             background: linear-gradient(to right, #0077c8, #40e0d0);
             color: #ffffff;

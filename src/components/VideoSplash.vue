@@ -10,8 +10,8 @@ let finished   = false
 function finish() {
     if (finished) return
     finished = true
-    visible.value = false                 // 觸發 leave transition (0.9s)
-    setTimeout(() => emit('ended'), 900)  // transition 結束後通知父層
+    visible.value = false                 
+    setTimeout(() => emit('ended'), 900)  
 }
 
 onMounted(() => {
@@ -20,7 +20,7 @@ onMounted(() => {
 
     const promise = video.play()
     if (promise !== undefined) {
-        promise.catch(() => finish())     // 自動播放被瀏覽器封鎖時立即結束
+        promise.catch(() => finish())    
     }
 })
 </script>

@@ -68,12 +68,10 @@ defineProps(
         line-height: 1.35;
     }
 
-    /* 允許 big_title_br 在所有尺寸生效 */
     .title-text :deep(.big_title_br) {
         display: block;
     }
 
-    /* 普通 <br>（不含 class）只在小螢幕顯示 */
     .title-text :deep(br:not(.big_title_br)) {
         display: none;
     }
@@ -101,4 +99,4 @@ defineProps(
             width: 80%;
         }
     }
-</style>
+</style>

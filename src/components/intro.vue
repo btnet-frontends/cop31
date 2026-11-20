@@ -22,7 +22,6 @@
 
 <template>
     <div class="content_wrap">
-        <!-- 最上方英文標題圖 -->
         <img :src="introEn" alt="Live & Direct" class="intro_en" />
 
         <Title :infoData="infoData" />
@@ -49,10 +48,10 @@
     }
 
     .intro_text{
-        font-size: 1.125rem;      // 約 18px,小字
+        font-size: 1.125rem;      
         font-weight: 400;
         color: #b8fff6;
-        margin-bottom: 3rem;      // 段落之間空一大段
+        margin-bottom: 3rem;     
         letter-spacing: 3px;
         text-align: justify;
         line-height: 2;

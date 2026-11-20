@@ -1,10 +1,8 @@
 <script setup>
     import { ref } from 'vue'
 
-    // 定義一個狀態來控制選單的開啟或關閉
     const isMenuOpen = ref(false)
 
-    // 切換選單的開啟狀態
     const toggleMenu = () => {
         isMenuOpen.value = !isMenuOpen.value;
     }
@@ -67,7 +65,6 @@
 </template>
 
 <style scoped>
-    /* Header 基本樣式 */
     header {
         position: fixed;
         display: block;
@@ -80,7 +77,6 @@
         z-index: 99;
     }
 
-    /* Logo 樣式 */
     .btnet_logo_box1 {
         position: absolute;
         display: block;
@@ -137,7 +133,6 @@
         opacity: 0.7;
     }
 
-    /* 漢堡選單圖示樣式 */
     .menu_icon {
         position: absolute;
         display: none;
@@ -161,7 +156,6 @@
         /* transition: all 0.3s ease; */
     }
 
-    /* 當選單開啟時，改變漢堡圖示的樣式 */
     .menu_icon span:nth-child(1) {
         transform-origin: center;
     }
@@ -190,7 +184,6 @@
         transform: rotate(-45deg) translateY(-12px);
     }
 
-    /* 選單樣式 */
     nav {
         position: relative;
         display: flex;

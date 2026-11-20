@@ -285,7 +285,6 @@
         box-shadow: 0 0 15px #1e5abc;
     }
 
-    /* ── 響應式 ── */
     @media screen and (max-width: 1024px) {
         .kv_picture_section {
             padding: 30px 16px 40px;
