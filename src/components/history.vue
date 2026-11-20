@@ -33,7 +33,6 @@
         }
 
         return [
-            //這是未設定的預設資料
             { value: 40, name: '北美' },
             { value: 32, name: '歐洲' },
             { value: 18, name: '亞洲' },

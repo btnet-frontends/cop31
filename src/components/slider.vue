@@ -102,7 +102,6 @@
                 :key="slide.key ?? index"
             >
                 <div class="slide-content">
-                    <!-- 圖二垂直大卡片樣式 -->
                     <template v-if="variant === 'vertical'">
                         <a class="vertical-card" :href="slide.url || '#'" target="_blank" rel="noopener noreferrer">
                             <div v-if="slide.image" class="vertical-card__image">
@@ -115,7 +114,6 @@
                             </div>
                         </a>
                     </template>
-                    <!-- 原本橫向大卡片樣式 -->
                     <template v-else>
                         <a :class="['card', slide.type === 'article3' ? 'type3' : '']" :href="slide.url || '#'">
                             <div v-if="slide.image" :class="['card__image', slide.type === 'article3' ? 'type3' : '']">
@@ -248,14 +246,12 @@
 
 
 
-    /*swiper*/
     .swiper {
         width: 85%;
         height: 100%;
     }
 
     .swiper-slide {
-        /* Center slide text vertically */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -366,7 +362,6 @@
             font-size: 1rem;
         }
 
-        /* swiper */
         .swiper {
             width: 100%;
             height: 100%;
@@ -378,9 +373,7 @@
         }
     }
 
-    /* ============================================================
-       垂直大卡片模式（圖二樣式）
-    ============================================================ */
+
     .slider--vertical {
         max-width: 860px;
         margin: 0 auto;
